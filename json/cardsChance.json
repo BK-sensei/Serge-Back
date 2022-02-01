@@ -1,0 +1,53 @@
+[
+    {
+        "name":"Carte fraudeur",
+        "content":"Vous devez payer une amende de 300§ à la banque.",
+        "type":"malus",
+        "amount":-300
+    }, 
+    {
+        "name":"Carte voyageur endormie",
+        "content":"Vous vous êtes endormi jusqu'au terminus !",
+        "type":"terminus"
+    },
+    {
+        "name":"Carte voyageur exemplaire",
+        "content":"Vous avez laissé votre place à une gentille grand-mère, pour vous remercier, elle vous offre 500§.",
+        "type":"bonus",
+        "amount":500
+    },
+    {
+        "name":"Carte musicien du métro",
+        "content":"Votre musique ravie les oreilles des passants, vous gagnez 500§",
+        "type":"bonus",
+        "amount":500
+    },
+    {
+        "name":"Carte perte du pass Navigo",
+        "content":"Vous devez payer 100§ pour le refaire.",
+        "type":"malus",
+        "amount":-100
+    },
+    {
+        "name":"Carte assurance du pass Navigo",
+        "content":"Vous pouvez garder cette carte. Vous n'aurez pas à payer 100§ si vous perdez votre pass Navigo.",
+        "type":"assurance"
+    },
+    {
+        "name":"Carte abonnement Navigo offert",
+        "content":"Vous pouvez garder cette carte. Vous n'aurez pas à payer la taxe de passage lors de votre prochain arrêt",
+        "type":"abonnement"
+    },
+    {
+        "name":"Carte prison",
+        "content":"Vous allez directement dans la station “prison”. Si vous payez 500§, vous êtes libre, sinon vous resterez coincé 24h à cause d'un problème technique sur la voie.",
+        "type":"prison",
+        "amount":-500
+    },
+    {
+        "name":"Carte sortie prison",
+        "content":"Vous pouvez garder cette carte. Vous êtes libéré de prison.",
+        "type":"sortiePrison"
+    }
+]
+
