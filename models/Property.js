@@ -22,8 +22,8 @@ const PropertySchema = Schema({
     traffic: Number,
     slice: Number,
     index: Object,
-    latitude: Float,
-    longitude: Float,
+    latitude: Number,
+    longitude: Number,
 })
 
 const Property = model("Property", PropertySchema)

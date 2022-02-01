@@ -505,7 +505,7 @@
         "latitude": 2.33871281165883, 
         "connexion": {}
       }, 
-      "UNIVERSITE": {
+      "CRETEIL UNIVERSITE": {
         "name": "Cr\u00e9teil-Universit\u00e9", 
         "lines": [
           8
@@ -513,7 +513,7 @@
         "longitude": 48.7893506910917, 
         "trafic": 3116625.0, 
         "rank": 169.0, 
-        "key": "UNIVERSITE", 
+        "key": "CRETEIL UNIVERSITE", 
         "latitude": 2.45144739751129, 
         "connexion": {}
       }, 
@@ -615,7 +615,7 @@
         "latitude": 2.44165620310216, 
         "connexion": {}
       }, 
-      "PREFECTURE": {
+      "CRETEIL PREFECTURE": {
         "name": "Cr\u00e9teil-Pr\u00e9fecture (H\u00f4tel de Ville)", 
         "lines": [
           8
@@ -623,7 +623,7 @@
         "longitude": 48.7797484034104, 
         "trafic": 4865573.0, 
         "rank": 87.0, 
-        "key": "PREFECTURE", 
+        "key": "CRETEIL PREFECTURE", 
         "latitude": 2.45914426746537, 
         "connexion": {}
       }, 
@@ -1094,7 +1094,7 @@
         "latitude": 2.3772866229916, 
         "connexion": {}
       }, 
-      "QUATRE CHEMINS": {
+      "AUBERVILLIERS PANTIN QUATRE CHEMINS": {
         "name": "Aubervilliers Pantin (4 Chemins)", 
         "lines": [
           7
@@ -1102,7 +1102,7 @@
         "longitude": 48.9038299162483, 
         "trafic": 7356008.0, 
         "rank": 35.0, 
-        "key": "QUATRE CHEMINS", 
+        "key": "AUBERVILLIERS PANTIN QUATRE CHEMINS", 
         "latitude": 2.3920219501423, 
         "connexion": {}
       }, 
@@ -1348,7 +1348,7 @@
         "latitude": 2.23788279833084, 
         "connexion": {}
       }, 
-      "DE LA POMPE": {
+      "RUE DE LA POMPE": {
         "name": "Rue de la Pompe (Avenue Georges Mandel)", 
         "lines": [
           9
@@ -1356,7 +1356,7 @@
         "longitude": 48.8641004131629, 
         "trafic": 3081914.0, 
         "rank": 173.0, 
-        "key": "DE LA POMPE", 
+        "key": "RUE DE LA POMPE", 
         "latitude": 2.27762632988678, 
         "connexion": {}
       }, 
@@ -1482,7 +1482,7 @@
         "latitude": 2.39970109937032, 
         "connexion": {}
       }, 
-      "BOBIGNY RAYMOND QUENEAU": {
+      "BOBIGNY PANTIN RAYMOND QUENEAU": {
         "name": "Bobigny-Pantin (Raymond Queneau)", 
         "lines": [
           5
@@ -1490,7 +1490,7 @@
         "longitude": 48.8952689905167, 
         "trafic": 2251347.0, 
         "rank": 229.0, 
-        "key": "BOBIGNY RAYMOND QUENEAU", 
+        "key": "BOBIGNY PANTIN RAYMOND QUENEAU", 
         "latitude": 2.42480187771966, 
         "connexion": {}
       }, 
@@ -1695,7 +1695,7 @@
         "latitude": 2.35409710573389, 
         "connexion": {}
       }, 
-      "LA MOTTE PICQUET": {
+      "LA MOTTE PICQUET GRENELLE": {
         "name": "La Motte-Picquet-Grenelle", 
         "lines": [
           6, 
@@ -1705,7 +1705,7 @@
         "longitude": 48.8491605024288, 
         "trafic": 8099346.0, 
         "rank": 30.0, 
-        "key": "LA MOTTE PICQUET", 
+        "key": "LA MOTTE PICQUET GRENELLE", 
         "latitude": 2.29794929910712, 
         "connexion": {}
       }, 
@@ -1969,7 +1969,7 @@
         "latitude": 2.32587286292213, 
         "connexion": {}
       }, 
-      "FRANKLIN ROOSEVELT": {
+      "FRANKLIN D. ROOSEVELT": {
         "name": "Franklin-Roosevelt", 
         "lines": [
           1, 
@@ -1978,7 +1978,7 @@
         "longitude": 48.8693052286485, 
         "trafic": 12640577.0, 
         "rank": 12.0, 
-        "key": "FRANKLIN ROOSEVELT", 
+        "key": "FRANKLIN D. ROOSEVELT", 
         "latitude": 2.30830876451203, 
         "connexion": {}
       }, 
@@ -2167,7 +2167,7 @@
         "latitude": 2.35164217355525, 
         "connexion": {}
       }, 
-      "EGLISE DE": {
+      "EGLISE DE PANTIN": {
         "name": "Eglise de Pantin", 
         "lines": [
           5
@@ -2175,7 +2175,7 @@
         "longitude": 48.893113981741, 
         "trafic": 3632300.0, 
         "rank": 141.0, 
-        "key": "EGLISE DE", 
+        "key": "EGLISE DE PANTIN", 
         "latitude": 2.41328568033304, 
         "connexion": {}
       }, 
@@ -2252,7 +2252,7 @@
         "latitude": 2.34522158237992, 
         "connexion": {}
       }, 
-      "POINTE DU LAC": {
+      "CRETEIL POINTE DU LAC": {
         "name": "Pointe du Lac", 
         "lines": [
           8
@@ -2260,7 +2260,7 @@
         "longitude": 48.7679578710506, 
         "trafic": 389235.0, 
         "rank": 299.0, 
-        "key": "POINTE DU LAC", 
+        "key": "CRETEIL POINTE DU LAC", 
         "latitude": 2.46598982922341, 
         "connexion": {}
       }, 
@@ -2325,7 +2325,7 @@
         "latitude": 2.31403452688812, 
         "connexion": {}
       }, 
-      "PLACES FETES": {
+      "PLACE DES FETES": {
         "name": "Place des F\u00eates", 
         "lines": [
           "7bis", 
@@ -2334,7 +2334,7 @@
         "longitude": 48.8768191471423, 
         "trafic": 3265485.0, 
         "rank": 162.0, 
-        "key": "PLACES FETES", 
+        "key": "PLACE DES FETES", 
         "latitude": 2.39347313514395, 
         "connexion": {}
       }, 
@@ -2498,7 +2498,7 @@
         "latitude": 2.33189346001924, 
         "connexion": {}
       }, 
-      "L ECHAT": {
+      "CRETEIL L ECHAT": {
         "name": "Cr\u00e9teil-L'Echat (H\u00f4pital Henri Mondor)", 
         "lines": [
           8
@@ -2506,7 +2506,7 @@
         "longitude": 48.7964623870188, 
         "trafic": 2109885.0, 
         "rank": 241.0, 
-        "key": "L ECHAT", 
+        "key": "CRETEIL L ECHAT", 
         "latitude": 2.44906187102647, 
         "connexion": {}
       }, 
@@ -2655,7 +2655,7 @@
         "latitude": 2.38895257216093, 
         "connexion": {}
       }, 
-      "MALAKOFF ETIENNE DOLET": {
+      "MALAKOFF RUE ETIENNE DOLET": {
         "name": "Malakoff-Rue Etienne Dolet", 
         "lines": [
           13
@@ -2663,7 +2663,7 @@
         "longitude": 48.8146679725106, 
         "trafic": 1846661.0, 
         "rank": 256.0, 
-        "key": "MALAKOFF ETIENNE DOLET", 
+        "key": "MALAKOFF RUE ETIENNE DOLET", 
         "latitude": 2.29699896350216, 
         "connexion": {}
       }, 
@@ -2791,7 +2791,7 @@
         "latitude": 2.30556600125528, 
         "connexion": {}
       }, 
-      "PORTE DE": {
+      "PORTE DE PANTIN": {
         "name": "Porte de Pantin", 
         "lines": [
           5
@@ -2799,7 +2799,7 @@
         "longitude": 48.8883327364608, 
         "trafic": 4477959.0, 
         "rank": 104.0, 
-        "key": "PORTE DE", 
+        "key": "PORTE DE PANTIN", 
         "latitude": 2.39146861403051, 
         "connexion": {}
       }, 
@@ -3280,7 +3280,7 @@
         "latitude": 2.28813731087893, 
         "connexion": {}
       }, 
-      "DES BOULETS": {
+      "RUE DES BOULETS": {
         "name": "Rue des Boulets", 
         "lines": [
           9
@@ -3288,7 +3288,7 @@
         "longitude": 48.8521417733756, 
         "trafic": 2669336.0, 
         "rank": 199.0, 
-        "key": "DES BOULETS", 
+        "key": "RUE DES BOULETS", 
         "latitude": 2.38914280457034, 
         "connexion": {}
       }, 
@@ -3402,7 +3402,7 @@
         "latitude": 2.35909154194382, 
         "connexion": {}
       }, 
-      "FORT D": {
+      "FORT D AUBERVILLIERS": {
         "name": "Fort d'Aubervilliers", 
         "lines": [
           7
@@ -3410,7 +3410,7 @@
         "longitude": 48.9146921997335, 
         "trafic": 3455421.0, 
         "rank": 148.0, 
-        "key": "FORT D", 
+        "key": "FORT D AUBERVILLIERS", 
         "latitude": 2.40417710143886, 
         "connexion": {}
       }, 
@@ -3488,7 +3488,7 @@
         "latitude": 2.23025364790437, 
         "connexion": {}
       }, 
-      "DU BAC": {
+      "RUE DU BAC": {
         "name": "Rue du Bac", 
         "lines": [
           12
@@ -3496,7 +3496,7 @@
         "longitude": 48.8557564721823, 
         "trafic": 2563169.0, 
         "rank": 208.0, 
-        "key": "DU BAC", 
+        "key": "RUE DU BAC", 
         "latitude": 2.32556882179391, 
         "connexion": {}
       }, 
@@ -3622,7 +3622,7 @@
         "latitude": 2.37680560769084, 
         "connexion": {}
       }, 
-      "LA COURNEUVE MAI QUATRE": {
+      "LA COURNEUVE 8 MAI 1945": {
         "name": "La Courneuve-8-Mai-1945", 
         "lines": [
           7
@@ -3630,7 +3630,7 @@
         "longitude": 48.9209043594324, 
         "trafic": 5707118.0, 
         "rank": 65.0, 
-        "key": "LA COURNEUVE MAI QUATRE", 
+        "key": "LA COURNEUVE 8 MAI 1945", 
         "latitude": 2.41045542691904, 
         "connexion": {}
       }, 

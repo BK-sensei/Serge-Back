@@ -1,0 +1,5077 @@
+{
+  "nhits": 303,
+  "parameters": {
+    "dataset": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+    "rows": 305,
+    "start": 0,
+    "facet": ["reseau", "station", "ville", "arrondissement_pour_paris"],
+    "format": "json",
+    "timezone": "UTC"
+  },
+  "records": [
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "7da10449e4f5606b5fbcf4792afa87d48240aa3b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "14",
+        "trafic": 19754334,
+        "arrondissement_pour_paris": 13,
+        "rang": 6,
+        "ville": "Paris",
+        "station": "BIBLIOTHEQUE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a9e54a3de19f38e0c2e2d2fa8656088c550ec17f",
+      "fields": {
+        "correspondance_4": "11",
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "correspondance_5": "14",
+        "trafic": 10766712,
+        "arrondissement_pour_paris": 1,
+        "rang": 12,
+        "ville": "Paris",
+        "station": "CHATELET",
+        "correspondance_3": "7",
+        "correspondance_2": "4"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "583314987c00cf4106fd0fde2fd8e148ba37803d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 10501357,
+        "arrondissement_pour_paris": 9,
+        "rang": 15,
+        "ville": "Paris",
+        "station": "OPERA",
+        "correspondance_3": "8",
+        "correspondance_2": "7"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ab044bba977c8e390aa7b629cebf42c2cef82313",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 9592920,
+        "arrondissement_pour_paris": 1,
+        "rang": 18,
+        "ville": "Paris",
+        "station": "PALAIS-ROYAL",
+        "correspondance_2": "7"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3efa606813e7bd8305dcf299fcc200735257dc0b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 9524965,
+        "arrondissement_pour_paris": 2,
+        "rang": 20,
+        "ville": "Paris",
+        "station": "STRASBOURG-SAINT-DENIS",
+        "correspondance_3": "9",
+        "correspondance_2": "8"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "694f49b9268ede3cf8b629aca5bad7b0b15bae63",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 8393535,
+        "arrondissement_pour_paris": 18,
+        "rang": 24,
+        "ville": "Paris",
+        "station": "PORTE DE CLIGNANCOURT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "260020be1e16fdb3e61674886ffc59ac4f5c94df",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 8277127,
+        "arrondissement_pour_paris": 9,
+        "rang": 25,
+        "ville": "Paris",
+        "station": "HAVRE-CAUMARTIN",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e5dde5a1a64baff5d24a195cdddb817f1ba029d7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 7296559,
+        "arrondissement_pour_paris": 8,
+        "rang": 36,
+        "ville": "Paris",
+        "station": "CHARLES DE GAULLE-ETOILE",
+        "correspondance_3": "6",
+        "correspondance_2": "2"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e20193310d0f2d9631e1839c365c6bcc12bdd85c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 6891050,
+        "arrondissement_pour_paris": 19,
+        "rang": 42,
+        "ville": "Paris",
+        "station": "STALINGRAD",
+        "correspondance_3": "7",
+        "correspondance_2": "5"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "40fc0e679e9dd99f5b91609e561305d6dca0842f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 6534340,
+        "arrondissement_pour_paris": 9,
+        "rang": 48,
+        "ville": "Paris",
+        "station": "LA CHAPELLE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a4b0a3ca448f4cbdbe931d4f14c41cb74d43836f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6314665,
+        "rang": 53,
+        "ville": "Neuilly Sur Seine",
+        "station": "LES SABLONS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fe4810926dea421521b89d139116a5f7c6fd4a89",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 6286034,
+        "arrondissement_pour_paris": 5,
+        "rang": 55,
+        "ville": "Paris",
+        "station": "SAINT-MICHEL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "93d69afb3f72c8b48b9cbf372d4733cfb6120abe",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 6259225,
+        "arrondissement_pour_paris": 14,
+        "rang": 56,
+        "ville": "Paris",
+        "station": "PORTE D'ORLEANS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "09b2cbf61a9ccfb29aa0c431b452b4db6c1c0b6c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6245865,
+        "rang": 57,
+        "ville": "Saint Mand\u00e9",
+        "station": "SAINT-MANDE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "42b80bc1ea025e99476c8503ee143ddc5d0f8d38",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 6069724,
+        "arrondissement_pour_paris": 1,
+        "rang": 59,
+        "ville": "Paris",
+        "station": "PYRAMIDES",
+        "correspondance_2": "14"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6bfec0652adc3b195a3383aad38d503e3a835059",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 5973655,
+        "arrondissement_pour_paris": 18,
+        "rang": 61,
+        "ville": "Paris",
+        "station": "MARCADET-POISSONNIERS",
+        "correspondance_2": "12"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "7006b8abc38e904f9bc78aadcc826bd7f2c84699",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 5908201,
+        "arrondissement_pour_paris": 8,
+        "rang": 62,
+        "ville": "Paris",
+        "station": "MIROMESNIL",
+        "correspondance_2": "13"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e1ac23e3429c23b99c42fa34e2289b8c59cd1cb7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 5836196,
+        "arrondissement_pour_paris": 19,
+        "rang": 64,
+        "ville": "Paris",
+        "station": "JAURES",
+        "correspondance_3": "7bis",
+        "correspondance_2": "5"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "227f0d92c7e2251246df945443b7f9aec37ab82e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 5599495,
+        "arrondissement_pour_paris": 18,
+        "rang": 71,
+        "ville": "Paris",
+        "station": "PIGALLE",
+        "correspondance_2": "12"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fbc412f9fa44d3b72edb9aa9d93b98ce77fddb1b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 5521946,
+        "rang": 73,
+        "ville": "Boulogne Billancourt",
+        "station": "MARCEL SEMBAT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d1281d580915e33e67c3629e8341a6ff2683e264",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 5291106,
+        "arrondissement_pour_paris": 3,
+        "rang": 75,
+        "ville": "Paris",
+        "station": "REAUMUR-SEBASTOPOL",
+        "correspondance_2": "4"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2b8a03d22ea99b28699afc5a014a67f32af1b2b6",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 5068483,
+        "rang": 78,
+        "ville": "Levallois-Perret",
+        "station": "PONT DE LEVALLOIS-BECON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3ac62c9c8f1874b643790254ecaeb922f713d319",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 4764374,
+        "arrondissement_pour_paris": 14,
+        "rang": 89,
+        "ville": "Paris",
+        "station": "ALESIA"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "96a4affc3237eaab84405ba46c40909fe23ac482",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 4493457,
+        "arrondissement_pour_paris": 9,
+        "rang": 98,
+        "ville": "Paris",
+        "station": "PASTEUR",
+        "correspondance_2": "12"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1f5fb62a7bf41109b03b10532ea3ef4d8035fceb",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 4382709,
+        "arrondissement_pour_paris": 8,
+        "rang": 103,
+        "ville": "Paris",
+        "station": "ALMA-MARCEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6afd095188e52bb8229fb90c0ab2b75e367b8184",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 3911586,
+        "arrondissement_pour_paris": 14,
+        "rang": 121,
+        "ville": "Paris",
+        "station": "DENFERT-ROCHEREAU",
+        "correspondance_2": "6"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8ce3cd23ef6b6728b5ca8838a302b0badd3b9488",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 3886523,
+        "rang": 124,
+        "ville": "Asni\u00e8res sur Seine",
+        "station": "LES COURTILLES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "49e24fbe95c8400ac5de13ac89c4b0701b3eea9f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 3878260,
+        "arrondissement_pour_paris": 10,
+        "rang": 125,
+        "ville": "Paris",
+        "station": "CHATEAU D'EAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b56f28537f59be67ee49fb729548aaff870209ba",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 3652338,
+        "arrondissement_pour_paris": 12,
+        "rang": 134,
+        "ville": "Paris",
+        "station": "CHARONNE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d775770b0e98462cbe5727eab9ce3f755112ef14",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 3596220,
+        "arrondissement_pour_paris": 7,
+        "rang": 135,
+        "ville": "Paris",
+        "station": "DUROC",
+        "correspondance_2": "13"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b1c0ebdddf52b3664df9569805c4329ac764a955",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 3536972,
+        "rang": 137,
+        "ville": "Cr\u00e9teil",
+        "station": "CRETEIL-UNIVERSITE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "00a2afd56167dea2a87a0a2d4180d73565f03171",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 3454231,
+        "rang": 140,
+        "ville": "Malakoff",
+        "station": "MALAKOFF-PLATEAU DE VANVES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "17d3dd88eaf02c25ae302c382ddba44de268ff3f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 3438335,
+        "rang": 144,
+        "ville": "Issy Les Moulineaux",
+        "station": "CORENTIN CELTON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8893a154d8d786c082ab11cd1c5b21345d341d57",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 3420249,
+        "arrondissement_pour_paris": 3,
+        "rang": 146,
+        "ville": "Paris",
+        "station": "SENTIER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0f95e8fe8bac96165307d7c5bfdd1ace15d5663a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 3386481,
+        "arrondissement_pour_paris": 2,
+        "rang": 148,
+        "ville": "Paris",
+        "station": "BOURSE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "02f1bd85410c375f61696d5d0cea7e0df7b29175",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 3304968,
+        "arrondissement_pour_paris": 6,
+        "rang": 154,
+        "ville": "Paris",
+        "station": "SAINT-PLACIDE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a2f5a4541ff5281f0d3ceb9a2503dee7e8ef92fc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "11",
+        "trafic": 3219510,
+        "arrondissement_pour_paris": 3,
+        "rang": 156,
+        "ville": "Paris",
+        "station": "RAMBUTEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2f69677778982f5050559d5315986f631469c5b3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 3189251,
+        "arrondissement_pour_paris": 17,
+        "rang": 159,
+        "ville": "Paris",
+        "station": "PORTE DE CHAMPERRET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "89e87e3f7780e932b55e477840384d15de9a6482",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 3026210,
+        "arrondissement_pour_paris": 17,
+        "rang": 173,
+        "ville": "Paris",
+        "station": "ARGENTINE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c84b7795a7a6598d271f5cb3d68a4889ff3f05cc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 3004505,
+        "arrondissement_pour_paris": 16,
+        "rang": 174,
+        "ville": "Paris",
+        "station": "RUE DE LA POMPE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ff539701a5413a2ac2fa341b09d3cfbf75550de5",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 2633369,
+        "arrondissement_pour_paris": 1,
+        "rang": 198,
+        "ville": "Paris",
+        "station": "LOUVRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "939fd133b87a01ef3a2e8db8ee1d057ff013e4e4",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2363639,
+        "arrondissement_pour_paris": 13,
+        "rang": 219,
+        "ville": "Paris",
+        "station": "PORTE D'ITALIE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "33360d2614aacdfff27207960f51317f4dd3fba0",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2304665,
+        "arrondissement_pour_paris": 7,
+        "rang": 226,
+        "ville": "Paris",
+        "station": "RUE DU BAC"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "85ad8979de0ec5bde3fd1f80dd9bddfc7de623df",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2301922,
+        "arrondissement_pour_paris": 15,
+        "rang": 227,
+        "ville": "Paris",
+        "station": "LOURMEL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b8b48ef830da6041a80d4c058677ac9a25b7242a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2139593,
+        "arrondissement_pour_paris": 7,
+        "rang": 237,
+        "ville": "Paris",
+        "station": "LA TOUR-MAUBOURG"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8cd21a49c3e952520e82135ec9c9c61c42c56595",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2105924,
+        "arrondissement_pour_paris": 12,
+        "rang": 239,
+        "ville": "Paris",
+        "station": "PORTE DE CHARENTON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4e8f7da376a398ce786f9a31d649ba027737a40a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 2048140,
+        "rang": 243,
+        "ville": "Malakoff",
+        "station": "MALAKOFF-RUE ETIENNE DOLET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fcd6816662962da285a76ce6f4e8f48ee3872193",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 1919511,
+        "arrondissement_pour_paris": 16,
+        "rang": 251,
+        "ville": "Paris",
+        "station": "BOISSIERE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "583198d1c74a4487a182406cf6354c4813a7320d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1901960,
+        "arrondissement_pour_paris": 13,
+        "rang": 253,
+        "ville": "Paris",
+        "station": "PORTE D'IVRY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "162983bda84c88f2bbf1dda26f8efc499087814a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1803381,
+        "arrondissement_pour_paris": 13,
+        "rang": 259,
+        "ville": "Paris",
+        "station": "MAISON BLANCHE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "215a5df0330335b066f78c6bc4b8c3787fc922cc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 1701996,
+        "arrondissement_pour_paris": 7,
+        "rang": 267,
+        "ville": "Paris",
+        "station": "SAINT-FRANCOIS-XAVIER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f9d7bbee59d6ba53c9420108aa09bd86d75117ce",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 1663781,
+        "arrondissement_pour_paris": 5,
+        "rang": 271,
+        "ville": "Paris",
+        "station": "CARDINAL LEMOINE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f35db68ac238d84296d83b5aaa3443a2c3d3078c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1606192,
+        "arrondissement_pour_paris": 3,
+        "rang": 274,
+        "ville": "Paris",
+        "station": "FILLES DU CALVAIRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "261f74e8e48bc1762da8f20a1fc52b85e455a559",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3bis",
+        "trafic": 716699,
+        "arrondissement_pour_paris": 8,
+        "rang": 295,
+        "ville": "Paris",
+        "station": "SAINT-FARGEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b4a274504dab31bfbe68118b5ff9584614263c00",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3bis",
+        "trafic": 329597,
+        "arrondissement_pour_paris": 20,
+        "rang": 302,
+        "ville": "Paris",
+        "station": "PELLEPORT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d282115f9811b98adcacc4a8c22d6d5e3c4aefc1",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 169939,
+        "arrondissement_pour_paris": 16,
+        "rang": 303,
+        "ville": "Paris",
+        "station": "EGLISE D'AUTEUIL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fb9efd519503cb2498d13ed1787e2f2217ec9fba",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 22443106,
+        "arrondissement_pour_paris": 10,
+        "rang": 5,
+        "ville": "Paris",
+        "station": "GARE DE L'EST",
+        "correspondance_3": "7",
+        "correspondance_2": "5"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6e9174d0143650731efd766f5670732e9d70efde",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 16069170,
+        "arrondissement_pour_paris": 1,
+        "rang": 9,
+        "ville": "Paris",
+        "station": "LES HALLES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d5486ffde3ba258416b126a049f25eed5d9c5124",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 10577276,
+        "arrondissement_pour_paris": 13,
+        "rang": 14,
+        "ville": "Paris",
+        "station": "PLACE D'ITALIE",
+        "correspondance_3": "7",
+        "correspondance_2": "6"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2e246ce35d7cae5a98da1da1dc475faad0854d27",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 9327124,
+        "arrondissement_pour_paris": 16,
+        "rang": 21,
+        "ville": "Paris",
+        "station": "TROCADERO",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d7e1070b081f87e3cfa4d615df766cf6e3fd916d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 7974496,
+        "arrondissement_pour_paris": 18,
+        "rang": 29,
+        "ville": "Paris",
+        "station": "BARBES-ROCHECHOUART",
+        "correspondance_2": "4"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "379b821ee83a659640da817663ed152a8074ee56",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 7958383,
+        "arrondissement_pour_paris": 15,
+        "rang": 30,
+        "ville": "Paris",
+        "station": "LA MOTTE-PICQUET-GRENELLE",
+        "correspondance_3": "10",
+        "correspondance_2": "8"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3c96e4e99ac9d3a67ccbd7a02359f32a7b57dca1",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 7879929,
+        "rang": 32,
+        "ville": "Bobigny",
+        "station": "BOBIGNY-PABLO PICASSO"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a055d6252fd780d7c83b46337b8e654e65ba2568",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 7312371,
+        "arrondissement_pour_paris": 9,
+        "rang": 34,
+        "ville": "Paris",
+        "station": "CHAUSSEE D'ANTIN-LA FAYETTE",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "865e22dd66890dd0784b06da491aedd8c9b353af",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 7196503,
+        "rang": 39,
+        "ville": "Chatillon",
+        "station": "CHATILLON-MONTROUGE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3274a01eb1b6d1ab6ead23f635de31d83ce5cdb0",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6902027,
+        "rang": 41,
+        "ville": "Neuilly Sur Seine",
+        "station": "PONT DE NEUILLY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a097f012678da5a6ec574e461ec6bb1873d6ce54",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 6798910,
+        "arrondissement_pour_paris": 20,
+        "rang": 45,
+        "ville": "Paris",
+        "station": "GAMBETTA",
+        "correspondance_2": "3bis"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0e55b3754f492c95badba457fbec1c1f34ba2de3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 6540934,
+        "arrondissement_pour_paris": 7,
+        "rang": 47,
+        "ville": "Paris",
+        "station": "INVALIDES",
+        "correspondance_2": "13"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6fd65bcf0fd4b3ceed840a2f9c25d6cc89d4eb72",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6502842,
+        "arrondissement_pour_paris": 4,
+        "rang": 49,
+        "ville": "Paris",
+        "station": "SAINT-PAUL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b32c6714c1ac14f2ed92a0500cdf8f7091c10463",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 5886507,
+        "rang": 63,
+        "ville": "La Courneuve",
+        "station": "LA COURNEUVE-8 MAI 1945"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c693ca5f8885dc2d9d63224e3975c8871d6360a7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 5643147,
+        "arrondissement_pour_paris": 18,
+        "rang": 67,
+        "ville": "Paris",
+        "station": "ANVERS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "398d2df02de9e1b7ca91381a3913c1714247a9b3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 5626040,
+        "arrondissement_pour_paris": 15,
+        "rang": 68,
+        "ville": "Paris",
+        "station": "BALARD"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a2874a0d46e94c668c4f38b44a5e16353d60ac7b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 5431969,
+        "arrondissement_pour_paris": 19,
+        "rang": 74,
+        "ville": "Paris",
+        "station": "CRIMEE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1097782f9d0ed9721c9587b32f7cf94ef27d07bd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 4995902,
+        "rang": 83,
+        "ville": "Pantin",
+        "station": "HOCHE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2d8b816c3ee9f1c902578af112a912775ecad609",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 4954717,
+        "rang": 85,
+        "ville": "Montreuil",
+        "station": "CROIX DE CHAVAUX"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "78ffcb22c0171c93a682c9de13a8b28fc17e3d50",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 4724592,
+        "arrondissement_pour_paris": 20,
+        "rang": 90,
+        "ville": "Paris",
+        "station": "PERE LACHAISE",
+        "correspondance_2": "3"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "df0a73de552b2a51966ba8351c424bd9b48f2f61",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 4601730,
+        "arrondissement_pour_paris": 15,
+        "rang": 93,
+        "ville": "Paris",
+        "station": "CHARLES MICHELS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "495679a752783dfabe9f2c3ea0ecf82c9fd49634",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 4468169,
+        "arrondissement_pour_paris": 7,
+        "rang": 99,
+        "ville": "Paris",
+        "station": "ECOLE MILITAIRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4d10ff67523110088a618a0fd06062513dcddfd1",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 4416955,
+        "arrondissement_pour_paris": 11,
+        "rang": 102,
+        "ville": "Paris",
+        "station": "OBERKAMPF",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6766b55f674134395f189e6ea16ae892bf4d65b5",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 4325317,
+        "arrondissement_pour_paris": 19,
+        "rang": 106,
+        "ville": "Paris",
+        "station": "LAUMIERE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c456b0f3254ed5a044c5ca85216efb85fa18266c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4314548,
+        "rang": 107,
+        "ville": "Saint Ouen",
+        "station": "MAIRIE DE SAINT-OUEN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "08fd1be82e0345ab48a654a2a43e4cf2164cdbf2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 4159555,
+        "arrondissement_pour_paris": 19,
+        "rang": 110,
+        "ville": "Paris",
+        "station": "PORTE DE LA VILLETTE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a39c26cc0b9a2541fe307581ad7eae9d0e64627c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 4020800,
+        "arrondissement_pour_paris": 20,
+        "rang": 115,
+        "ville": "Paris",
+        "station": "PORTE DE BAGNOLET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "759381f3c177af3c3b474a2a030170251866c685",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 3761155,
+        "arrondissement_pour_paris": 17,
+        "rang": 132,
+        "ville": "Paris",
+        "station": "PORTE DE SAINT-OUEN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ced83d8e5c3ae880f57f5317e5ccf0686e39796d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 3546360,
+        "rang": 136,
+        "ville": "Levallois-Perret",
+        "station": "LOUISE MICHEL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "57426c2405efc106ce719ab7e94002449a4ec539",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 3439879,
+        "arrondissement_pour_paris": 11,
+        "rang": 142,
+        "ville": "Paris",
+        "station": "ALEXANDRE DUMAS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "22630097309e4595d0b5d99507d60953da340213",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 3221871,
+        "arrondissement_pour_paris": 15,
+        "rang": 155,
+        "ville": "Paris",
+        "station": "DUPLEIX"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b1ed54b86f8b2aebf08b37fc1cde90bba7877bef",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 3187985,
+        "arrondissement_pour_paris": 16,
+        "rang": 161,
+        "ville": "Paris",
+        "station": "PASSY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1bc041fbe4e29afaa41960d94d6d6174f975ed2f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3042484,
+        "arrondissement_pour_paris": 9,
+        "rang": 169,
+        "ville": "Paris",
+        "station": "CADET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "38351ac4c024b5a26bbfbf5bbace0cbbeec93022",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2977955,
+        "arrondissement_pour_paris": 11,
+        "rang": 177,
+        "ville": "Paris",
+        "station": "SAINT-AMBROISE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a191ebca6b700d8ec223f432760dbbf1363d5cee",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 2969444,
+        "arrondissement_pour_paris": 15,
+        "rang": 178,
+        "ville": "Paris",
+        "station": "JAVEL-ANDRE CITROEN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "063f1989b56d062f545045be8cc32f529323a072",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7bis",
+        "trafic": 2921564,
+        "arrondissement_pour_paris": 19,
+        "rang": 182,
+        "ville": "Paris",
+        "station": "PLACE DES FETES",
+        "correspondance_2": "11"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "9037cd27aee34d30d17bcc4e43e692bc7a5fd71e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2849288,
+        "rang": 186,
+        "ville": "Cr\u00e9teil",
+        "station": "CRETEIL-POINTE DU LAC"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "dc0838ea8ab522010ef4bbed37f1281aa4a741dc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2830893,
+        "rang": 188,
+        "ville": "Villejuif",
+        "station": "VILLEJUIF-LEO LAGRANGE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "493c3a7857b69c624ef32e791a9e517c8264cde7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2766678,
+        "arrondissement_pour_paris": 19,
+        "rang": 191,
+        "ville": "Paris",
+        "station": "CORENTIN CARIOU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a03d30d1b34d194e89282267cc90f5f92b30293a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 2676549,
+        "arrondissement_pour_paris": 1,
+        "rang": 196,
+        "ville": "Paris",
+        "station": "ETIENNE MARCEL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8e429a7a01461fb76cc01e3bb5acc3a70280df53",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2532442,
+        "rang": 206,
+        "ville": "Charenton",
+        "station": "LIBERTE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a2239e6de2526d69a20b01b384e8f7abed61e8bf",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 2524418,
+        "arrondissement_pour_paris": 15,
+        "rang": 207,
+        "ville": "Paris",
+        "station": "CAMBRONNE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "81fcc631439b202c7ac64a7e1c00326d155cd21e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 2512122,
+        "arrondissement_pour_paris": 13,
+        "rang": 208,
+        "ville": "Paris",
+        "station": "CORVISART"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8d5929217261c36978ae8b80f08c087586df2c39",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 2422197,
+        "arrondissement_pour_paris": 11,
+        "rang": 214,
+        "ville": "Paris",
+        "station": "RICHARD LENOIR"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e123579b8bcde7e52a468de995c7a9e42360b47a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 2406916,
+        "arrondissement_pour_paris": 17,
+        "rang": 215,
+        "ville": "Paris",
+        "station": "MALESHERBES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8e83226341976823c6a4e558b084987a7b071ace",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2314539,
+        "arrondissement_pour_paris": 16,
+        "rang": 223,
+        "ville": "Paris",
+        "station": "RANELAGH"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8d4f553d221d5e720bbf207798badab4d74cfbd4",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 2309419,
+        "rang": 225,
+        "ville": "Asni\u00e8res sur Seine",
+        "station": "LES AGNETTES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "04f6e3e8845eba4549e0e83ddf98cd0d949bfacf",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 2142333,
+        "arrondissement_pour_paris": 14,
+        "rang": 236,
+        "ville": "Paris",
+        "station": "EDGAR QUINET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6a437309a2debf011c9566df739555b313287e8c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2102492,
+        "arrondissement_pour_paris": 16,
+        "rang": 240,
+        "ville": "Paris",
+        "station": "EXELMANS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "86ace072f1ae3fb0035b28ad4ab9b40bc494223e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2051828,
+        "arrondissement_pour_paris": 6,
+        "rang": 242,
+        "ville": "Paris",
+        "station": "NOTRE-DAME-DES-CHAMPS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a66e4b7a38e5c30809d4806be469b652b7a37477",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 1997741,
+        "arrondissement_pour_paris": 2,
+        "rang": 246,
+        "ville": "Paris",
+        "station": "QUATRE-SEPTEMBRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b2d1f931157cbd2f595c4de2771bf474c663b23b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 1887146,
+        "arrondissement_pour_paris": 14,
+        "rang": 254,
+        "ville": "Paris",
+        "station": "RASPAIL",
+        "correspondance_2": "6"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ce774b237f189fe717c7f6fd0d6318e05dee4d57",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 1871024,
+        "arrondissement_pour_paris": 11,
+        "rang": 256,
+        "ville": "Paris",
+        "station": "AVRON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "22c8328eafcd80e994d6e24203843e6f05692716",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1759434,
+        "arrondissement_pour_paris": 10,
+        "rang": 263,
+        "ville": "Paris",
+        "station": "CHATEAU-LANDON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8947f5996fa4b934b3a16a8e3bfe12602be7da72",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 1740572,
+        "arrondissement_pour_paris": 4,
+        "rang": 265,
+        "ville": "Paris",
+        "station": "CITE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "40b09be7a98c22daf014b28231e6f876375e241a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 1672269,
+        "arrondissement_pour_paris": 17,
+        "rang": 269,
+        "ville": "Paris",
+        "station": "MONCEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0cb5b73699df09ebd2d4d3d0ab2d7daf7ed5dc2a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1527533,
+        "arrondissement_pour_paris": 11,
+        "rang": 279,
+        "ville": "Paris",
+        "station": "CHEMIN VERT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d3a830859c52be71e6ea18f6b802e37c7f8f2430",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 1241311,
+        "arrondissement_pour_paris": 7,
+        "rang": 286,
+        "ville": "Paris",
+        "station": "VARENNE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "5adadeceab380a6c581beb1bb002eb11a08fdf05",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 1063551,
+        "arrondissement_pour_paris": 7,
+        "rang": 291,
+        "ville": "Paris",
+        "station": "ASSEMBLEE NATIONALE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1de093672cf81354ac49d3a9bc0b2357ca72c790",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 692665,
+        "arrondissement_pour_paris": 16,
+        "rang": 296,
+        "ville": "Paris",
+        "station": "CHARDON-LAGACHE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a0d210fa1a1955c8b1bacdbebf6168147cb266f2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 622094,
+        "arrondissement_pour_paris": 16,
+        "rang": 297,
+        "ville": "Paris",
+        "station": "PORTE D'AUTEUIL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ef029e54ab30c63caa80da08371997a57427ccc7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7bis",
+        "trafic": 545750,
+        "arrondissement_pour_paris": 19,
+        "rang": 300,
+        "ville": "Paris",
+        "station": "BUTTES-CHAUMONT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0527e34ac3d0f0ce1ac839cccc9bc199c5163af7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 12307363,
+        "arrondissement_pour_paris": 4,
+        "rang": 11,
+        "ville": "Paris",
+        "station": "HOTEL DE VILLE",
+        "correspondance_2": "11"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a5812e03f1bd2487b1dd4fb50c8d02d481a06398",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 9883008,
+        "rang": 17,
+        "ville": "Puteaux",
+        "station": "ESPLANADE DE LA DEFENSE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "668b954fef8b4439e0faa9fda14779b6c7ed5cf5",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 9545487,
+        "arrondissement_pour_paris": 8,
+        "rang": 19,
+        "ville": "Paris",
+        "station": "FRANKLIN D. ROOSEVELT",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c9b891cd34a73b34917b4696cd84fcad23b19877",
+      "fields": {
+        "correspondance_4": "9",
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 8834660,
+        "arrondissement_pour_paris": 12,
+        "rang": 22,
+        "ville": "Paris",
+        "station": "NATION",
+        "correspondance_3": "6",
+        "correspondance_2": "2"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3cbf12af9c583dc6cdd974584f0d2e5bcfd17194",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 8020440,
+        "arrondissement_pour_paris": 17,
+        "rang": 28,
+        "ville": "Paris",
+        "station": "PLACE CLICHY",
+        "correspondance_2": "13"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "85600fbea2545e1f0dfb454cc613e33396e2a461",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 7306788,
+        "arrondissement_pour_paris": 18,
+        "rang": 35,
+        "ville": "Paris",
+        "station": "CHATEAU ROUGE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "bb792d4533a080258aa63f121212efa4540a89a3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 7215915,
+        "rang": 37,
+        "ville": "Aubervilliers",
+        "station": "AUBERVILLIERS-PANTIN-QUATRE CHEMINS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0595fcf2a81c10a1c2c43cc31d4d268bc1adc8ae",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 6903648,
+        "arrondissement_pour_paris": 15,
+        "rang": 40,
+        "ville": "Paris",
+        "station": "BIR-HAKEIM"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d547ef059fff8e1976dc040178e25a42a1a4ee8c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 6849601,
+        "rang": 43,
+        "ville": "Montrouge",
+        "station": "MAIRIE DE MONTROUGE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "affc67555dbd183231e9fbe4c342f9d22e07b138",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "14",
+        "trafic": 6043808,
+        "arrondissement_pour_paris": 12,
+        "rang": 60,
+        "ville": "Paris",
+        "station": "COUR SAINT-EMILION"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e392f8e96a7a3a4cac373c0d742ecc9a11d4fedd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 5667552,
+        "arrondissement_pour_paris": 17,
+        "rang": 66,
+        "ville": "Paris",
+        "station": "VILLIERS",
+        "correspondance_2": "3"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "89266785d5c31f5c0440d57bdb0827ea0958f920",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 5037509,
+        "arrondissement_pour_paris": 7,
+        "rang": 80,
+        "ville": "Paris",
+        "station": "SEVRES-BABYLONE",
+        "correspondance_2": "12"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3896a229d7e473ed28fd13364798924e669dd36f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 5014491,
+        "arrondissement_pour_paris": 9,
+        "rang": 81,
+        "ville": "Paris",
+        "station": "RICHELIEU-DROUOT",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "575cfc34501f454bf9fb23ff0d02775e10206e83",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4784211,
+        "arrondissement_pour_paris": 14,
+        "rang": 87,
+        "ville": "Paris",
+        "station": "PLAISANCE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6001733eab97e35e4bf427ef668c7c52a7a9642a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4770181,
+        "rang": 88,
+        "ville": "Saint Denis",
+        "station": "SAINT-DENIS-UNIVERSITE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "983ae99f3aa566f3598689cfb4d26e35fde5c502",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 4663191,
+        "rang": 91,
+        "ville": "Cr\u00e9teil",
+        "station": "CRETEIL-PREFECTURE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "265a05e3762534c88491f275b773d75e62218755",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 4583027,
+        "arrondissement_pour_paris": 10,
+        "rang": 94,
+        "ville": "Paris",
+        "station": "BONNE NOUVELLE",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1f3ab95878d166672def20f8145bc8295a538d44",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 4498939,
+        "arrondissement_pour_paris": 13,
+        "rang": 96,
+        "ville": "Paris",
+        "station": "GLACIERE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a0ae88dadd7746f364d07a6112c30d0d2a7c2141",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4495978,
+        "arrondissement_pour_paris": 17,
+        "rang": 97,
+        "ville": "Paris",
+        "station": "PORTE DE CLICHY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "219e222770b9922dcafe0fa590e408308a1046de",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 4446732,
+        "arrondissement_pour_paris": 17,
+        "rang": 100,
+        "ville": "Paris",
+        "station": "PEREIRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "470be2e6b842a029bc7376ba2048202a8a70eec8",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 3991922,
+        "arrondissement_pour_paris": 16,
+        "rang": 119,
+        "ville": "Paris",
+        "station": "LA MUETTE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0e9dcb3eb2be154ee761ebb253ab6515b03fa6a0",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 3943809,
+        "arrondissement_pour_paris": 11,
+        "rang": 120,
+        "ville": "Paris",
+        "station": "MENILMONTANT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4f703698ce47467b07079c862b95bb8947c2b657",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3889085,
+        "rang": 123,
+        "ville": "Aubervilliers",
+        "station": "FORT D'AUBERVILLIERS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f98287e105017157dfd8b640d686f420576516ed",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 3866889,
+        "arrondissement_pour_paris": 6,
+        "rang": 126,
+        "ville": "Paris",
+        "station": "SAINT-GERMAIN DES PRES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "aaa936ba297c7bb696b4c9b6a2b0f50efa538551",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 3843796,
+        "rang": 127,
+        "ville": "Pantin",
+        "station": "EGLISE DE PANTIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2c47031f5dc1d1374261b7a12a47ff2d6d3cb213",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 3841033,
+        "arrondissement_pour_paris": 16,
+        "rang": 128,
+        "ville": "Paris",
+        "station": "VICTOR HUGO"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "753a2ce848281b95625830798940cdfb2fd42333",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 3533091,
+        "rang": 138,
+        "ville": "Levallois-Perret",
+        "station": "ANATOLE FRANCE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "40877fec9a5bbbf07042bb3bed6f0d03636dffec",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3466034,
+        "arrondissement_pour_paris": 10,
+        "rang": 139,
+        "ville": "Paris",
+        "station": "POISSONNIERE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d0bdfb589332dde17a7644fa25269f1e151a282a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 3445009,
+        "arrondissement_pour_paris": 15,
+        "rang": 141,
+        "ville": "Paris",
+        "station": "VAUGIRARD"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4a8e88bf05fa4fdc5fa8fadecf73bdd3a9e8255c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 3330349,
+        "rang": 152,
+        "ville": "Saint Ouen",
+        "station": "GARIBALDI"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "cf1eb0bf57a83d15f33f580c87da4646146bea05",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 3103492,
+        "arrondissement_pour_paris": 11,
+        "rang": 164,
+        "ville": "Paris",
+        "station": "PARMENTIER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "93b16f6f1cda2b5ad1b1fa7426ca5a7ebb075acd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3074561,
+        "rang": 166,
+        "ville": "Ivry",
+        "station": "MAIRIE D'IVRY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fe9e0e26860507b3419f51ddc1f076d190b89db0",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 3052723,
+        "arrondissement_pour_paris": 8,
+        "rang": 167,
+        "ville": "Paris",
+        "station": "SAINT-AUGUSTIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4357af7b7e79110a89f5c30bd42612c233eb962b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 3050541,
+        "arrondissement_pour_paris": 14,
+        "rang": 168,
+        "ville": "Paris",
+        "station": "PERNETY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e036ed8cff9904343937852a40d96095f093d1e2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 3033927,
+        "arrondissement_pour_paris": 13,
+        "rang": 170,
+        "ville": "Paris",
+        "station": "QUAI DE LA GARE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f1d79df1b7222ada2fa3b1ee566ce7b7000aa990",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 2924501,
+        "arrondissement_pour_paris": 11,
+        "rang": 181,
+        "ville": "Paris",
+        "station": "SAINT-MAUR"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "be54bc553a0656aded21318c9431585f0d5be00c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "11",
+        "trafic": 2920049,
+        "arrondissement_pour_paris": 20,
+        "rang": 183,
+        "ville": "Paris",
+        "station": "PYRENEES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a94df09bed1b84254286cb7c04a1ecd762dfc5b1",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 2753714,
+        "arrondissement_pour_paris": 17,
+        "rang": 193,
+        "ville": "Paris",
+        "station": "ROME"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c900bdcc05a048adc7623c2d20846e268103da26",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 2713799,
+        "arrondissement_pour_paris": 14,
+        "rang": 194,
+        "ville": "Paris",
+        "station": "GAITE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f2d6c73aedfbab7f87787e1230ac8f59c9b39b01",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2704202,
+        "arrondissement_pour_paris": 18,
+        "rang": 195,
+        "ville": "Paris",
+        "station": "LAMARCK-CAULAINCOURT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "012505280f786ff7ef49658965c6006ffa5e9ec1",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2608017,
+        "arrondissement_pour_paris": 20,
+        "rang": 200,
+        "ville": "Paris",
+        "station": "MARAICHERS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "696db4752973f6fedf76f01b7d6479d687a6271a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2583609,
+        "arrondissement_pour_paris": 11,
+        "rang": 202,
+        "ville": "Paris",
+        "station": "RUE DES BOULETS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "134750f712e22e9fe5b791b7b3f181bf8071a492",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 2579556,
+        "arrondissement_pour_paris": 12,
+        "rang": 203,
+        "ville": "Paris",
+        "station": "DUGOMMIER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "9918e2a9878e3efc8a469a7d9adb283825335d98",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 2563103,
+        "arrondissement_pour_paris": 8,
+        "rang": 204,
+        "ville": "Paris",
+        "station": "LA FOURCHE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c735810fd6f8f52613bb80b5070cd9d73d1cbf30",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 2557929,
+        "arrondissement_pour_paris": 17,
+        "rang": 205,
+        "ville": "Paris",
+        "station": "COURCELLES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "47a0ab444688997bd4c0b5ff0548b3bd5b1be9ef",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 2497964,
+        "arrondissement_pour_paris": 13,
+        "rang": 209,
+        "ville": "Paris",
+        "station": "NATIONALE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "7dd1c0200b9d1c6ce9d37085200e6adfc59584a3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 2477876,
+        "arrondissement_pour_paris": 10,
+        "rang": 210,
+        "ville": "Paris",
+        "station": "JACQUES BONSERGENT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "7ea0f5b5ee03597b669ef4e746af50df42ad3387",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2379751,
+        "arrondissement_pour_paris": 18,
+        "rang": 217,
+        "ville": "Paris",
+        "station": "PORTE DE LA CHAPELLE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2019ae59816769e75e12edef5ba94f2d5646ea7b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2330375,
+        "rang": 222,
+        "ville": "Maisons -Alfort",
+        "station": "MAISONS-ALFORT-STADE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "287f198d284508058d4aa0ea29c7d381c9e2cc0c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2312581,
+        "arrondissement_pour_paris": 19,
+        "rang": 224,
+        "ville": "Paris",
+        "station": "RIQUET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c4be4b5956ff9726851a45c0969821adaa6684f1",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 2232036,
+        "arrondissement_pour_paris": 5,
+        "rang": 233,
+        "ville": "Paris",
+        "station": "CLUNY LA SORBONNE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "10c9ba06002c191cc5c976d6334c3f57c88b2f33",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 2226690,
+        "arrondissement_pour_paris": 5,
+        "rang": 234,
+        "ville": "Paris",
+        "station": "MAUBERT-MUTUALITE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c72a4e14031fca04ea251a267eec4c7332c18b96",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "11",
+        "trafic": 2192190,
+        "arrondissement_pour_paris": 11,
+        "rang": 235,
+        "ville": "Paris",
+        "station": "GONCOURT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f340aa4b44b954a475062a177e23fe2f5074f60e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 2131369,
+        "arrondissement_pour_paris": 13,
+        "rang": 238,
+        "ville": "Paris",
+        "station": "SAINT-MARCEL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0e9691717c7c2e114ebf83398380ad0615f6432a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 1941769,
+        "arrondissement_pour_paris": 20,
+        "rang": 249,
+        "ville": "Paris",
+        "station": "BUZENVAL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "46b2fba9eec44067015d6c26f006cd15d4c573b7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1779627,
+        "rang": 261,
+        "ville": "Maisons -Alfort",
+        "station": "MAISONS-ALFORT-LES JUILLIOTTES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "995842170cf2538c86e253401dfef86cc7fd1868",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 1763562,
+        "arrondissement_pour_paris": 11,
+        "rang": 262,
+        "ville": "Paris",
+        "station": "PHILIPPE AUGUSTE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c8f32e5a7b22d5044a6b36836588aa66dd2c3559",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1744774,
+        "arrondissement_pour_paris": 15,
+        "rang": 264,
+        "ville": "Paris",
+        "station": "FELIX FAURE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "937105b5a808c5959c424232e7a18782acf40dd2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 1669348,
+        "arrondissement_pour_paris": 15,
+        "rang": 270,
+        "ville": "Paris",
+        "station": "SEGUR"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "098f4fd422cf00449d3f120238e1bda0cd3323d3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 1662452,
+        "arrondissement_pour_paris": 8,
+        "rang": 272,
+        "ville": "Paris",
+        "station": "LIEGE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0b929537f5c85b3a1395975bda845e70cb0e58d2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 1618088,
+        "arrondissement_pour_paris": 8,
+        "rang": 273,
+        "ville": "Paris",
+        "station": "EUROPE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c1f9734f4af6b8d0c64cecae8ee627681faa6dfb",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 1583761,
+        "arrondissement_pour_paris": 14,
+        "rang": 276,
+        "ville": "Paris",
+        "station": "MOUTON-DUVERNET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "26dc6fa558f1b402f5de38c8fbed46cc51bebf72",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1535768,
+        "rang": 278,
+        "ville": "Ivry",
+        "station": "PIERRE CURIE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a3b9ac77eb00c76f6e2ad6cee0498aeaff56476e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 1335450,
+        "arrondissement_pour_paris": 13,
+        "rang": 283,
+        "ville": "Paris",
+        "station": "CAMPO-FORMIO"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "dac743b321bdb42d876991b7bc71db7a317f6aee",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 1135274,
+        "arrondissement_pour_paris": 9,
+        "rang": 290,
+        "ville": "Paris",
+        "station": "SAINT-GEORGES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d5e59b0cf33a79cf6abc2889929bf267526c4c1f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7bis",
+        "trafic": 547896,
+        "arrondissement_pour_paris": 19,
+        "rang": 298,
+        "ville": "Paris",
+        "station": "DANUBE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "37feabb6799d1f4515501f2f326d87be6512b2d7",
+      "fields": {
+        "correspondance_4": "13",
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 29857740,
+        "arrondissement_pour_paris": 14,
+        "rang": 4,
+        "ville": "Paris",
+        "station": "MONTPARNASSE-BIENVENUE",
+        "correspondance_3": "12",
+        "correspondance_2": "6"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "69f68eccd0193d90d29b7469dec835c660fc76ca",
+      "fields": {
+        "correspondance_4": "9",
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "correspondance_5": "11",
+        "trafic": 16596521,
+        "arrondissement_pour_paris": 11,
+        "rang": 7,
+        "ville": "Paris",
+        "station": "REPUBLIQUE",
+        "correspondance_3": "8",
+        "correspondance_2": "5"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b44b0989955e11066584658486da01bec26fb127",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 13151192,
+        "arrondissement_pour_paris": 12,
+        "rang": 10,
+        "ville": "Paris",
+        "station": "BASTILLE",
+        "correspondance_3": "8",
+        "correspondance_2": "5"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c4050c2e30d44890ed2ef83230b1739e7da6e06d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 8226552,
+        "arrondissement_pour_paris": 16,
+        "rang": 26,
+        "ville": "Paris",
+        "station": "PORTE MAILLOT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "721d6f87ee3ac9267ee3f6382f69ef1a99b52f78",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "14",
+        "trafic": 7912359,
+        "arrondissement_pour_paris": 13,
+        "rang": 31,
+        "ville": "Paris",
+        "station": "OLYMPIADES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "bbbefca3279880ef69c7a9fcd81927101805099a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 7633984,
+        "arrondissement_pour_paris": 12,
+        "rang": 33,
+        "ville": "Paris",
+        "station": "PORTE DE VINCENNES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "87d142fbb2bc4b6f1df6c726cebfd19afa5e97cc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6643262,
+        "arrondissement_pour_paris": 8,
+        "rang": 46,
+        "ville": "Paris",
+        "station": "GEORGE V"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fa5231d49ed628822c8581d8e730b7a0f4eb032d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6328040,
+        "arrondissement_pour_paris": 12,
+        "rang": 52,
+        "ville": "Paris",
+        "station": "REUILLY-DIDEROT",
+        "correspondance_2": "8"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a0043e1941e778dd42404c463b91071a4b662b4a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 6311543,
+        "arrondissement_pour_paris": 12,
+        "rang": 54,
+        "ville": "Paris",
+        "station": "BERCY",
+        "correspondance_2": "14"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e469f18e64a3dd9f885046e9fbcf0e1855912787",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 5823995,
+        "arrondissement_pour_paris": 15,
+        "rang": 65,
+        "ville": "Paris",
+        "station": "PORTE DE VERSAILLES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8c012d1f88d669d59e17beb0697eb20c91702e38",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 5615256,
+        "arrondissement_pour_paris": 19,
+        "rang": 69,
+        "ville": "Paris",
+        "station": "PORTE DE PANTIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "9819a3e1f0e39144fab586ca16c7b4aaece5ecac",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 5600764,
+        "arrondissement_pour_paris": 6,
+        "rang": 70,
+        "ville": "Paris",
+        "station": "ODEON",
+        "correspondance_2": "10"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b8dd366c4603d14dc96be4800bd7e457703af288",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 5275717,
+        "arrondissement_pour_paris": 15,
+        "rang": 76,
+        "ville": "Paris",
+        "station": "CONVENTION"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f78d40f9d8a314643f8f1ccec1c62f665c3b3409",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 5174694,
+        "arrondissement_pour_paris": 16,
+        "rang": 77,
+        "ville": "Paris",
+        "station": "PORTE DE SAINT-CLOUD"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "dcf73bc58830530ff600792ce0989d2b047c41fe",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 5048247,
+        "rang": 79,
+        "ville": "Boulogne Billancourt",
+        "station": "PONT DE SEVRES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "28ec093dec1801046c2b78d65f8aaf653a6ca0f5",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 4975145,
+        "arrondissement_pour_paris": 11,
+        "rang": 84,
+        "ville": "Paris",
+        "station": "VOLTAIRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ea87edf701f5b3ed13c8495bed4fd61f8162257f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "11",
+        "trafic": 4436148,
+        "rang": 101,
+        "ville": "Les Lilas",
+        "station": "MAIRIE DES LILAS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3bc452cb5876d269b30cbd255c06354b5e2c82a2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 4344016,
+        "arrondissement_pour_paris": 20,
+        "rang": 104,
+        "ville": "Paris",
+        "station": "PORTE DE MONTREUIL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ca4cf5a9e9c947988aeaeacc353d48390ddb852a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 4328012,
+        "arrondissement_pour_paris": 5,
+        "rang": 105,
+        "ville": "Paris",
+        "station": "JUSSIEU",
+        "correspondance_2": "10"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3d66a64b66e718f4e961267699c922309cca87ec",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4311590,
+        "rang": 108,
+        "ville": "Saint Denis",
+        "station": "BASILIQUE DE SAINT-DENIS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "7ae10cb680b58e7f1bdd8aabb7a4718b726068dd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 4221091,
+        "rang": 109,
+        "ville": "Montreuil",
+        "station": "ROBESPIERRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "bdb9d973f48ce9248b1245296fe9f09e4f20f7cc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 4096487,
+        "rang": 111,
+        "ville": "Issy Les Moulineaux",
+        "station": "MAIRIE D'ISSY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e02c49886939e697a60e82fa94a6474ebd6e4efd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 4062243,
+        "rang": 112,
+        "ville": "Kremlin-Bic\u00eatre",
+        "station": "LE KREMLIN-BICETRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d3b973ecd36a8c42bdbc4efd39447b5b17a43c6f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 4034229,
+        "arrondissement_pour_paris": 18,
+        "rang": 113,
+        "ville": "Paris",
+        "station": "JULES JOFFRIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a1a694c7b4d7cfedf330723840b11c693c456b1a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4032072,
+        "rang": 114,
+        "ville": "Saint Denis",
+        "station": "SAINT-DENIS-PORTE DE PARIS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "533ad55e750f5400304c2603a34f8f7511fe8a80",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 4011632,
+        "arrondissement_pour_paris": 3,
+        "rang": 116,
+        "ville": "Paris",
+        "station": "ARTS ET METIERS",
+        "correspondance_2": "11"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "5bbc271c6783716bab94f196b7ca395eaff6aa6e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 4006171,
+        "arrondissement_pour_paris": 8,
+        "rang": 117,
+        "ville": "Paris",
+        "station": "CHAMPS-ELYSEES-CLEMENCEAU",
+        "correspondance_2": "13"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "71b49e75a67ad45317cc52f7b6e2048e790ef1f5",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 3785458,
+        "rang": 129,
+        "ville": "Boulogne Billancourt",
+        "station": "BOULOGNE-JEAN JAURES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3a963f9a9727ff42e375ab1c861fd9bd9f3dec42",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 3763663,
+        "arrondissement_pour_paris": 19,
+        "rang": 131,
+        "ville": "Paris",
+        "station": "OURCQ"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6e4248ea53a91e2cec43a348be345cfa624da68c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 3426306,
+        "arrondissement_pour_paris": 13,
+        "rang": 145,
+        "ville": "Paris",
+        "station": "CHEVALERET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "797c156f566ddadd809caa6e773da3a5fd40cafd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 3400474,
+        "arrondissement_pour_paris": 18,
+        "rang": 147,
+        "ville": "Paris",
+        "station": "FUNICULAIRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fcf4a87b9d434fd297f9d6ab1585c785aa1a69c0",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3377372,
+        "arrondissement_pour_paris": 13,
+        "rang": 150,
+        "ville": "Paris",
+        "station": "LES GOBELINS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2e5568bdb3515e3b58955045dfd3060db5c1e747",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 3193857,
+        "rang": 157,
+        "ville": "Maisons -Alfort",
+        "station": "ECOLE VETERINAIRE DE MAISONS-ALFORT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "5597e8f69bf030c855410b0532cff502e91ce1d4",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3191066,
+        "arrondissement_pour_paris": 13,
+        "rang": 158,
+        "ville": "Paris",
+        "station": "TOLBIAC"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b09e49ddfa2c0e6d2a839f2938842dc95efbce3e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 3187997,
+        "arrondissement_pour_paris": 8,
+        "rang": 160,
+        "ville": "Paris",
+        "station": "SAINT-PHILIPPE-DU-ROULE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b4a8d2b5ddd809977a522baad5d35145e4692c5e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 3152108,
+        "arrondissement_pour_paris": 15,
+        "rang": 162,
+        "ville": "Paris",
+        "station": "BOUCICAUT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "05d0785da2dd965847d7e865f3809fcc1e282fa2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 3145907,
+        "rang": 163,
+        "ville": "Boulogne Billancourt",
+        "station": "BOULOGNE-PONT DE SAINT-CLOUD"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1317a59cf50f7b3fcc905b089aa9e17eb49d1696",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 3099341,
+        "rang": 165,
+        "ville": "Boulogne Billancourt",
+        "station": "BILLANCOURT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "5cfc08a46949e49862e4a5836c82b7997d547b13",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "11",
+        "trafic": 3029314,
+        "arrondissement_pour_paris": 20,
+        "rang": 172,
+        "ville": "Paris",
+        "station": "JOURDAIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3791761af4374e72ac18eb71495a43f2786c397c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2864592,
+        "arrondissement_pour_paris": 15,
+        "rang": 185,
+        "ville": "Paris",
+        "station": "COMMERCE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "82360d75212029bda243041b8ad19a73278f1055",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2833104,
+        "arrondissement_pour_paris": 9,
+        "rang": 187,
+        "ville": "Paris",
+        "station": "NOTRE-DAME-DE-LORETTE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e29fcfd696da54b3e3c48b32376ef53fdc510a75",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2802852,
+        "rang": 190,
+        "ville": "Saint Denis / Aubervilliers",
+        "station": "FRONT POPULAIRE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6b871e41d13f35e75803baf2f322851a7805552c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2763236,
+        "arrondissement_pour_paris": 12,
+        "rang": 192,
+        "ville": "Paris",
+        "station": "PORTE DOREE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "308955d4695543406e255543193e694946d9a76c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2598026,
+        "arrondissement_pour_paris": 13,
+        "rang": 201,
+        "ville": "Paris",
+        "station": "PORTE DE CHOISY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f7e25468e7269adb8d126711178131ff72ed501c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 2473446,
+        "rang": 211,
+        "ville": "Saint Denis",
+        "station": "CARREFOUR PLEYEL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fd5ffb22496050076f00000b068b1683a04dee2f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2451509,
+        "arrondissement_pour_paris": 9,
+        "rang": 212,
+        "ville": "Paris",
+        "station": "LE PELETIER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f24ad1d38f8a9624df4880727f6beae23468e6a7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2449391,
+        "rang": 213,
+        "ville": "Villejuif",
+        "station": "VILLEJUIF-PAUL VAILLANT-COUTURIER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "02efbf38ad1c2cb289c4632e8e0132a87e9dabd3",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2272326,
+        "arrondissement_pour_paris": 10,
+        "rang": 229,
+        "ville": "Paris",
+        "station": "LOUIS BLANC",
+        "correspondance_2": "7bis"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "5861ed26e6e78735e62049bf5747a8f5dc346ffd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2253948,
+        "rang": 230,
+        "ville": "Cr\u00e9teil",
+        "station": "CRETEIL-L'ECHAT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "69f4c2c215b46343c7d5fa30c5cd9613792a66ec",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 2247926,
+        "arrondissement_pour_paris": 12,
+        "rang": 231,
+        "ville": "Paris",
+        "station": "BEL AIR"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c3c826ca859fad4cd48865c60544bc23a17b1c64",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2042174,
+        "arrondissement_pour_paris": 16,
+        "rang": 244,
+        "ville": "Paris",
+        "station": "MICHEL-ANGE-AUTEUIL",
+        "correspondance_2": "10"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "bba2c12b74de7ef90544efdca4eb4e58bc379e80",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 1957206,
+        "arrondissement_pour_paris": 15,
+        "rang": 247,
+        "ville": "Paris",
+        "station": "SEVRES-LECOURBE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "63e4c0226ae2c3cbd7d14ddd7377ab72bc485a6b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 1876512,
+        "arrondissement_pour_paris": 9,
+        "rang": 255,
+        "ville": "Paris",
+        "station": "TRINITE D ESTIENNE D'ORVES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b4f278861cdde01ac9207ff3c5c8659617cc5702",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 1859872,
+        "arrondissement_pour_paris": 6,
+        "rang": 257,
+        "ville": "Paris",
+        "station": "MABILLON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8c9bce429d8c6d825ddf0fdaef84868da0f88a20",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1733641,
+        "arrondissement_pour_paris": 4,
+        "rang": 266,
+        "ville": "Paris",
+        "station": "PONT MARIE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b649033f65e336c551c521ca1034bf525c428153",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1596702,
+        "arrondissement_pour_paris": 12,
+        "rang": 275,
+        "ville": "Paris",
+        "station": "MONTGALLET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0968cc0fdd907f68a02911b9967c513a14a5b815",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1502672,
+        "arrondissement_pour_paris": 4,
+        "rang": 280,
+        "ville": "Paris",
+        "station": "SULLY-MORLAND"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "90a55951fab5832f5ae83586ac5a3577941ed3fa",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 1377611,
+        "arrondissement_pour_paris": 16,
+        "rang": 282,
+        "ville": "Paris",
+        "station": "MIRABEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "45e6601e3cf08bd125789bb215685abe0abada5d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 1302314,
+        "arrondissement_pour_paris": 12,
+        "rang": 284,
+        "ville": "Paris",
+        "station": "PICPUS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c0e37afd8bf9b88b9cdfa0fe6b8c05df8c39bb60",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 1253324,
+        "arrondissement_pour_paris": 16,
+        "rang": 285,
+        "ville": "Paris",
+        "station": "KLEBER"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1b2dde837e2aaad83cf97aca9c53facce97d87ca",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 1181641,
+        "arrondissement_pour_paris": 6,
+        "rang": 288,
+        "ville": "Paris",
+        "station": "RENNES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3e13a42dd92a3cd7983e1886136e2ddb5caf495d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 1155002,
+        "arrondissement_pour_paris": 12,
+        "rang": 289,
+        "ville": "Paris",
+        "station": "QUAI DE LA RAPEE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2445f78f1fd4c897068a535b7bf6cce9c2e8e7bd",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 1028480,
+        "arrondissement_pour_paris": 7,
+        "rang": 292,
+        "ville": "Paris",
+        "station": "VANEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6a5be94148f4513afba78432abc5d95952659dbc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7bis",
+        "trafic": 993450,
+        "arrondissement_pour_paris": 19,
+        "rang": 293,
+        "ville": "Paris",
+        "station": "BOTZARIS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "8bd6f32c0174238035e5af69a5b0cd1e711d18f9",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 881763,
+        "arrondissement_pour_paris": 15,
+        "rang": 294,
+        "ville": "Paris",
+        "station": "FALGUIERE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b73f11468cf5da75791d85116bf2f1beae618d86",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7bis",
+        "trafic": 546780,
+        "arrondissement_pour_paris": 19,
+        "rang": 299,
+        "ville": "Paris",
+        "station": "BOLIVAR"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "9e359ab6dbe352551a3df518de4423e509121f6c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 51141374,
+        "arrondissement_pour_paris": 10,
+        "rang": 1,
+        "ville": "Paris",
+        "station": "GARE DU NORD",
+        "correspondance_2": "5"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "b83345e1233cdc210d5f2431cf5f6aed97d7c82f",
+      "fields": {
+        "correspondance_4": "13",
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "correspondance_5": "14",
+        "trafic": 46923920,
+        "arrondissement_pour_paris": 8,
+        "rang": 2,
+        "ville": "Paris",
+        "station": "SAINT-LAZARE",
+        "correspondance_3": "12",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "215518e7e817084a3839461d4d956b9e0c0808f8",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 36512570,
+        "arrondissement_pour_paris": 12,
+        "rang": 3,
+        "ville": "Paris",
+        "station": "GARE DE LYON",
+        "correspondance_3": "A",
+        "correspondance_2": "14"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4eca68b2744d33bd309bfe0f62b48e439807690c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 16213921,
+        "rang": 8,
+        "ville": "Puteaux",
+        "station": "LA DEFENSE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "fb859ad5524471ca8ca37d2348eb50b6464fee72",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 10735544,
+        "arrondissement_pour_paris": 10,
+        "rang": 13,
+        "ville": "Paris",
+        "station": "BELLEVILLE",
+        "correspondance_2": "11"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "79d2a359f23afbad000d9eb03b2901e886958c28",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 9887549,
+        "arrondissement_pour_paris": 13,
+        "rang": 16,
+        "ville": "Paris",
+        "station": "GARE D'AUSTERLITZ",
+        "correspondance_2": "10"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e6a49faf8c9d6286c3b3d7711811d8502fe0262c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 8473016,
+        "arrondissement_pour_paris": 8,
+        "rang": 23,
+        "ville": "Paris",
+        "station": "MADELEINE",
+        "correspondance_3": "14",
+        "correspondance_2": "12"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "14b15be4884985f0d79a49d065ed7b5e5222a567",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 8106589,
+        "rang": 27,
+        "ville": "Montreuil",
+        "station": "MAIRIE DE MONTREUIL"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2b407d89d8ac620abf6e50add1b78d302f82c77a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 7198931,
+        "rang": 38,
+        "ville": "Villejuif",
+        "station": "VILLEJUIF-LOUIS ARAGON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "4fee6837333aff7d0f387d5f72a6e54151d29f36",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 6807424,
+        "arrondissement_pour_paris": 9,
+        "rang": 44,
+        "ville": "Paris",
+        "station": "GRANDS BOULEVARDS",
+        "correspondance_2": "9"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "026b9412b79ca5ff8079a73ec5618b10c755ae3b",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6353285,
+        "rang": 50,
+        "ville": "Vincennes",
+        "station": "CHATEAU DE VINCENNES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "59c236c550ee43590fdc47b684991f0f06cc7f3a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 6342058,
+        "rang": 51,
+        "ville": "Clichy",
+        "station": "MAIRIE DE CLICHY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0e31fd3ccabcce4e8d8c9cca8ef8ecb09d821bb8",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 6115023,
+        "arrondissement_pour_paris": 8,
+        "rang": 58,
+        "ville": "Paris",
+        "station": "CONCORDE",
+        "correspondance_3": "12",
+        "correspondance_2": "8"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "6b691602678ad69f765360ce4ca95a698e0efb8c",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 5595343,
+        "rang": 72,
+        "ville": "Bagnolet",
+        "station": "GALLIENI"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1dfdf0a26fd36089110886b8c1f5f46e632aa3ab",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4998394,
+        "rang": 82,
+        "ville": "Asni\u00e8res",
+        "station": "GABRIEL PERI"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "75093466334d7dc44d03d1dda841227b57a9f5cc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 4954004,
+        "arrondissement_pour_paris": 12,
+        "rang": 86,
+        "ville": "Paris",
+        "station": "DAUMESNIL",
+        "correspondance_2": "8"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "e53c1de4aa5f7503d36ca31c34287711516a83b9",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4660158,
+        "arrondissement_pour_paris": 14,
+        "rang": 92,
+        "ville": "Paris",
+        "station": "PORTE DE VANVES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "f7ca60168cfa3f9c64cb2e2ca1a24bdde26a1923",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 4511921,
+        "arrondissement_pour_paris": 10,
+        "rang": 95,
+        "ville": "Paris",
+        "station": "COLONEL FABIEN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d8b7b3f5510ebb38d0c14fa4e03682c5053be4ab",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 4004960,
+        "arrondissement_pour_paris": 17,
+        "rang": 118,
+        "ville": "Paris",
+        "station": "GUY MOQUET"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "3a2d04ad9719e308c44f52068a39bd3fe63cc7f2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 3893362,
+        "arrondissement_pour_paris": 9,
+        "rang": 122,
+        "ville": "Paris",
+        "station": "BLANCHE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "7098f9d3100355ad937ff35b10f466938f29ca45",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 3777270,
+        "arrondissement_pour_paris": 12,
+        "rang": 130,
+        "ville": "Paris",
+        "station": "LEDRU-ROLLIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "478e0f64b930f8f601efcef8f398984928f32e2f",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 3656859,
+        "rang": 133,
+        "ville": "Vincennes",
+        "station": "BERAULT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0cd5001864b89bdc67c93abaf1b06cf05ed7c834",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3bis",
+        "trafic": 3439385,
+        "arrondissement_pour_paris": 20,
+        "rang": 143,
+        "ville": "Paris",
+        "station": "PORTE DES LILAS",
+        "correspondance_2": "11"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "62e04d3ab78ad28126dfe1320e2de435e53eca60",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 3385284,
+        "arrondissement_pour_paris": 6,
+        "rang": 149,
+        "ville": "Paris",
+        "station": "CENSIER-DAUBENTON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ec9d402f9c2b789e3583330a577db573ac389187",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 3359946,
+        "arrondissement_pour_paris": 18,
+        "rang": 151,
+        "ville": "Paris",
+        "station": "MARX DORMOY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "bd807bbe8120847ada8e20144cda98157846d1f7",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 3329214,
+        "arrondissement_pour_paris": 17,
+        "rang": 153,
+        "ville": "Paris",
+        "station": "TERNES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "65463c07502672280d109d76199d6d3385269563",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 3032239,
+        "arrondissement_pour_paris": 12,
+        "rang": 171,
+        "ville": "Paris",
+        "station": "FAIDHERBE-CHALIGNY"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d6f78edcd177b3f443394701142b62a27bde604d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 2984929,
+        "rang": 175,
+        "ville": "Charenton",
+        "station": "CHARENTON-ECOLES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "35bdd4182966f5c77170257e6df5f19c7e8517ca",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "13",
+        "trafic": 2984525,
+        "arrondissement_pour_paris": 17,
+        "rang": 176,
+        "ville": "Paris",
+        "station": "BROCHANT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0c78fccdef7d8706c8b1cfeceb576d29920fcf37",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 2951030,
+        "rang": 179,
+        "ville": "Pantin",
+        "station": "BOBIGNY-PANTIN-RAYMOND QUENEAU"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "db220c0bd3751303f5392d5e4c40fac21110041e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 2932159,
+        "arrondissement_pour_paris": 16,
+        "rang": 180,
+        "ville": "Paris",
+        "station": "PORTE DAUPHINE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "eb96cb6f7f959e5011bff99e8161f6e6f2bce2da",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "2",
+        "trafic": 2897777,
+        "arrondissement_pour_paris": 11,
+        "rang": 184,
+        "ville": "Paris",
+        "station": "COURONNES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "9262e3f1467f05a068bca0ebb1e665012b7dfec4",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 2828772,
+        "arrondissement_pour_paris": 6,
+        "rang": 189,
+        "ville": "Paris",
+        "station": "PLACE MONGE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "cb6d244ad1dbd6139e0bed39d508a5ff5c4f0d19",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2646049,
+        "arrondissement_pour_paris": 16,
+        "rang": 197,
+        "ville": "Paris",
+        "station": "IENA"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "00e34bf1e94e88f1b6b8209da7d3571410ec2cdc",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "1",
+        "trafic": 2614837,
+        "arrondissement_pour_paris": 1,
+        "rang": 199,
+        "ville": "Paris",
+        "station": "TUILERIES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2fd7423a2d3aab18de04777131db428253a8a8db",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 2386255,
+        "arrondissement_pour_paris": 17,
+        "rang": 216,
+        "ville": "Paris",
+        "station": "WAGRAM"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a28568fe62a65f30e665fc4d9b1238e12b534978",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 2366858,
+        "arrondissement_pour_paris": 18,
+        "rang": 218,
+        "ville": "Paris",
+        "station": "SIMPLON"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "487d832fce041e6c2c2eeb986fff084a0bbbd61d",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2362771,
+        "arrondissement_pour_paris": 15,
+        "rang": 220,
+        "ville": "Paris",
+        "station": "VOLONTAIRES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "25c83881e3f36acdf81f74785dbfdf3872d3f7aa",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2349588,
+        "arrondissement_pour_paris": 18,
+        "rang": 221,
+        "ville": "Paris",
+        "station": "ABBESSES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "add37d45e02e0a39a262f751bf62df877d99d046",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 2287634,
+        "arrondissement_pour_paris": 6,
+        "rang": 228,
+        "ville": "Paris",
+        "station": "SAINT-SULPICE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d5067fbd061bec02a5f900a67f4fd8fb0c5fccb2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 2247014,
+        "arrondissement_pour_paris": 16,
+        "rang": 232,
+        "ville": "Paris",
+        "station": "MICHEL-ANGE-MOLITOR",
+        "correspondance_2": "10"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "d9542583618d13e1eb3a7532fe545746f725cfac",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "12",
+        "trafic": 2073832,
+        "arrondissement_pour_paris": 7,
+        "rang": 241,
+        "ville": "Paris",
+        "station": "SOLFERINO"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "2ee67404b6c376a5f970cc72616720e6043797a9",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "4",
+        "trafic": 2021987,
+        "arrondissement_pour_paris": 14,
+        "rang": 245,
+        "ville": "Paris",
+        "station": "VAVIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "a069620cd49338c3e3ffba01ecfec631a578535a",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "6",
+        "trafic": 1954772,
+        "arrondissement_pour_paris": 13,
+        "rang": 248,
+        "ville": "Paris",
+        "station": "SAINT-JACQUES"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "0201fde9153fa3dacbde04dfb148328802f7b4ae",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "9",
+        "trafic": 1935764,
+        "arrondissement_pour_paris": 16,
+        "rang": 250,
+        "ville": "Paris",
+        "station": "JASMIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "1c38a7a8b0843025b289bdf38b61a0eb9e6d5333",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1906545,
+        "arrondissement_pour_paris": 12,
+        "rang": 252,
+        "ville": "Paris",
+        "station": "MICHEL BIZOT"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c9a84882c52d977b957453497d78d03e0bcf8986",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "11",
+        "trafic": 1823734,
+        "arrondissement_pour_paris": 20,
+        "rang": 258,
+        "ville": "Paris",
+        "station": "TELEGRAPHE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "c6fe2f0afcde26ef9407976cf0a740ec82b1754e",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "5",
+        "trafic": 1791352,
+        "arrondissement_pour_paris": 11,
+        "rang": 260,
+        "ville": "Paris",
+        "station": "BREGUET-SABIN"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "78ab24f4c22f33d66f701241484358e0b6671aa2",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "8",
+        "trafic": 1685816,
+        "arrondissement_pour_paris": 3,
+        "rang": 268,
+        "ville": "Paris",
+        "station": "SAINT-SEBASTIEN-FROISSART"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "cd74c8c44962887d3b69c076d270ae1aef433412",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7",
+        "trafic": 1546517,
+        "arrondissement_pour_paris": 4,
+        "rang": 277,
+        "ville": "Paris",
+        "station": "PONT NEUF"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ae638032b6efb219de850f967f91798d643f3123",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "10",
+        "trafic": 1479759,
+        "arrondissement_pour_paris": 15,
+        "rang": 281,
+        "ville": "Paris",
+        "station": "AVENUE EMILE ZOLA"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "ebf7bf061df53c5946281ac65a59ca49eb33e9a6",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "3",
+        "trafic": 1194283,
+        "arrondissement_pour_paris": 2,
+        "rang": 287,
+        "ville": "Paris",
+        "station": "TEMPLE"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    },
+    {
+      "datasetid": "trafic-annuel-entrant-par-station-du-reseau-ferre-2019",
+      "recordid": "5a421e52f8dfb69c89918bdf55e947fa194d4346",
+      "fields": {
+        "reseau": "M\u00e9tro",
+        "correspondance_1": "7bis",
+        "trafic": 386948,
+        "arrondissement_pour_paris": 19,
+        "rang": 301,
+        "ville": "Paris",
+        "station": "PRE-SAINT-GERVAIS"
+      },
+      "record_timestamp": "2020-03-16T10:13:07.711000+00:00"
+    }
+  ],
+  "facet_groups": [
+    {
+      "name": "reseau",
+      "facets": [
+        {
+          "name": "M\u00e9tro",
+          "count": 303,
+          "state": "refined",
+          "path": "M\u00e9tro"
+        }
+      ]
+    },
+    {
+      "name": "station",
+      "facets": [
+        {
+          "name": "ABBESSES",
+          "count": 1,
+          "state": "displayed",
+          "path": "ABBESSES"
+        },
+        {
+          "name": "ALESIA",
+          "count": 1,
+          "state": "displayed",
+          "path": "ALESIA"
+        },
+        {
+          "name": "ALEXANDRE DUMAS",
+          "count": 1,
+          "state": "displayed",
+          "path": "ALEXANDRE DUMAS"
+        },
+        {
+          "name": "ALMA-MARCEAU",
+          "count": 1,
+          "state": "displayed",
+          "path": "ALMA-MARCEAU"
+        },
+        {
+          "name": "ANATOLE FRANCE",
+          "count": 1,
+          "state": "displayed",
+          "path": "ANATOLE FRANCE"
+        },
+        {
+          "name": "ANVERS",
+          "count": 1,
+          "state": "displayed",
+          "path": "ANVERS"
+        },
+        {
+          "name": "ARGENTINE",
+          "count": 1,
+          "state": "displayed",
+          "path": "ARGENTINE"
+        },
+        {
+          "name": "ARTS ET METIERS",
+          "count": 1,
+          "state": "displayed",
+          "path": "ARTS ET METIERS"
+        },
+        {
+          "name": "ASSEMBLEE NATIONALE",
+          "count": 1,
+          "state": "displayed",
+          "path": "ASSEMBLEE NATIONALE"
+        },
+        {
+          "name": "AUBERVILLIERS-PANTIN-QUATRE CHEMINS",
+          "count": 1,
+          "state": "displayed",
+          "path": "AUBERVILLIERS-PANTIN-QUATRE CHEMINS"
+        },
+        {
+          "name": "AVENUE EMILE ZOLA",
+          "count": 1,
+          "state": "displayed",
+          "path": "AVENUE EMILE ZOLA"
+        },
+        { "name": "AVRON", "count": 1, "state": "displayed", "path": "AVRON" },
+        {
+          "name": "BALARD",
+          "count": 1,
+          "state": "displayed",
+          "path": "BALARD"
+        },
+        {
+          "name": "BARBES-ROCHECHOUART",
+          "count": 1,
+          "state": "displayed",
+          "path": "BARBES-ROCHECHOUART"
+        },
+        {
+          "name": "BASILIQUE DE SAINT-DENIS",
+          "count": 1,
+          "state": "displayed",
+          "path": "BASILIQUE DE SAINT-DENIS"
+        },
+        {
+          "name": "BASTILLE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BASTILLE"
+        },
+        {
+          "name": "BEL AIR",
+          "count": 1,
+          "state": "displayed",
+          "path": "BEL AIR"
+        },
+        {
+          "name": "BELLEVILLE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BELLEVILLE"
+        },
+        {
+          "name": "BERAULT",
+          "count": 1,
+          "state": "displayed",
+          "path": "BERAULT"
+        },
+        { "name": "BERCY", "count": 1, "state": "displayed", "path": "BERCY" },
+        {
+          "name": "BIBLIOTHEQUE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BIBLIOTHEQUE"
+        },
+        {
+          "name": "BILLANCOURT",
+          "count": 1,
+          "state": "displayed",
+          "path": "BILLANCOURT"
+        },
+        {
+          "name": "BIR-HAKEIM",
+          "count": 1,
+          "state": "displayed",
+          "path": "BIR-HAKEIM"
+        },
+        {
+          "name": "BLANCHE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BLANCHE"
+        },
+        {
+          "name": "BOBIGNY-PABLO PICASSO",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOBIGNY-PABLO PICASSO"
+        },
+        {
+          "name": "BOBIGNY-PANTIN-RAYMOND QUENEAU",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOBIGNY-PANTIN-RAYMOND QUENEAU"
+        },
+        {
+          "name": "BOISSIERE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOISSIERE"
+        },
+        {
+          "name": "BOLIVAR",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOLIVAR"
+        },
+        {
+          "name": "BONNE NOUVELLE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BONNE NOUVELLE"
+        },
+        {
+          "name": "BOTZARIS",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOTZARIS"
+        },
+        {
+          "name": "BOUCICAUT",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOUCICAUT"
+        },
+        {
+          "name": "BOULOGNE-JEAN JAURES",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOULOGNE-JEAN JAURES"
+        },
+        {
+          "name": "BOULOGNE-PONT DE SAINT-CLOUD",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOULOGNE-PONT DE SAINT-CLOUD"
+        },
+        {
+          "name": "BOURSE",
+          "count": 1,
+          "state": "displayed",
+          "path": "BOURSE"
+        },
+        {
+          "name": "BREGUET-SABIN",
+          "count": 1,
+          "state": "displayed",
+          "path": "BREGUET-SABIN"
+        },
+        {
+          "name": "BROCHANT",
+          "count": 1,
+          "state": "displayed",
+          "path": "BROCHANT"
+        },
+        {
+          "name": "BUTTES-CHAUMONT",
+          "count": 1,
+          "state": "displayed",
+          "path": "BUTTES-CHAUMONT"
+        },
+        {
+          "name": "BUZENVAL",
+          "count": 1,
+          "state": "displayed",
+          "path": "BUZENVAL"
+        },
+        { "name": "CADET", "count": 1, "state": "displayed", "path": "CADET" },
+        {
+          "name": "CAMBRONNE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CAMBRONNE"
+        },
+        {
+          "name": "CAMPO-FORMIO",
+          "count": 1,
+          "state": "displayed",
+          "path": "CAMPO-FORMIO"
+        },
+        {
+          "name": "CARDINAL LEMOINE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CARDINAL LEMOINE"
+        },
+        {
+          "name": "CARREFOUR PLEYEL",
+          "count": 1,
+          "state": "displayed",
+          "path": "CARREFOUR PLEYEL"
+        },
+        {
+          "name": "CENSIER-DAUBENTON",
+          "count": 1,
+          "state": "displayed",
+          "path": "CENSIER-DAUBENTON"
+        },
+        {
+          "name": "CHAMPS-ELYSEES-CLEMENCEAU",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHAMPS-ELYSEES-CLEMENCEAU"
+        },
+        {
+          "name": "CHARDON-LAGACHE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHARDON-LAGACHE"
+        },
+        {
+          "name": "CHARENTON-ECOLES",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHARENTON-ECOLES"
+        },
+        {
+          "name": "CHARLES DE GAULLE-ETOILE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHARLES DE GAULLE-ETOILE"
+        },
+        {
+          "name": "CHARLES MICHELS",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHARLES MICHELS"
+        },
+        {
+          "name": "CHARONNE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHARONNE"
+        },
+        {
+          "name": "CHATEAU D'EAU",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHATEAU D'EAU"
+        },
+        {
+          "name": "CHATEAU DE VINCENNES",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHATEAU DE VINCENNES"
+        },
+        {
+          "name": "CHATEAU ROUGE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHATEAU ROUGE"
+        },
+        {
+          "name": "CHATEAU-LANDON",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHATEAU-LANDON"
+        },
+        {
+          "name": "CHATELET",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHATELET"
+        },
+        {
+          "name": "CHATILLON-MONTROUGE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHATILLON-MONTROUGE"
+        },
+        {
+          "name": "CHAUSSEE D'ANTIN-LA FAYETTE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHAUSSEE D'ANTIN-LA FAYETTE"
+        },
+        {
+          "name": "CHEMIN VERT",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHEMIN VERT"
+        },
+        {
+          "name": "CHEVALERET",
+          "count": 1,
+          "state": "displayed",
+          "path": "CHEVALERET"
+        },
+        { "name": "CITE", "count": 1, "state": "displayed", "path": "CITE" },
+        {
+          "name": "CLUNY LA SORBONNE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CLUNY LA SORBONNE"
+        },
+        {
+          "name": "COLONEL FABIEN",
+          "count": 1,
+          "state": "displayed",
+          "path": "COLONEL FABIEN"
+        },
+        {
+          "name": "COMMERCE",
+          "count": 1,
+          "state": "displayed",
+          "path": "COMMERCE"
+        },
+        {
+          "name": "CONCORDE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CONCORDE"
+        },
+        {
+          "name": "CONVENTION",
+          "count": 1,
+          "state": "displayed",
+          "path": "CONVENTION"
+        },
+        {
+          "name": "CORENTIN CARIOU",
+          "count": 1,
+          "state": "displayed",
+          "path": "CORENTIN CARIOU"
+        },
+        {
+          "name": "CORENTIN CELTON",
+          "count": 1,
+          "state": "displayed",
+          "path": "CORENTIN CELTON"
+        },
+        {
+          "name": "CORVISART",
+          "count": 1,
+          "state": "displayed",
+          "path": "CORVISART"
+        },
+        {
+          "name": "COUR SAINT-EMILION",
+          "count": 1,
+          "state": "displayed",
+          "path": "COUR SAINT-EMILION"
+        },
+        {
+          "name": "COURCELLES",
+          "count": 1,
+          "state": "displayed",
+          "path": "COURCELLES"
+        },
+        {
+          "name": "COURONNES",
+          "count": 1,
+          "state": "displayed",
+          "path": "COURONNES"
+        },
+        {
+          "name": "CRETEIL-L'ECHAT",
+          "count": 1,
+          "state": "displayed",
+          "path": "CRETEIL-L'ECHAT"
+        },
+        {
+          "name": "CRETEIL-POINTE DU LAC",
+          "count": 1,
+          "state": "displayed",
+          "path": "CRETEIL-POINTE DU LAC"
+        },
+        {
+          "name": "CRETEIL-PREFECTURE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CRETEIL-PREFECTURE"
+        },
+        {
+          "name": "CRETEIL-UNIVERSITE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CRETEIL-UNIVERSITE"
+        },
+        {
+          "name": "CRIMEE",
+          "count": 1,
+          "state": "displayed",
+          "path": "CRIMEE"
+        },
+        {
+          "name": "CROIX DE CHAVAUX",
+          "count": 1,
+          "state": "displayed",
+          "path": "CROIX DE CHAVAUX"
+        },
+        {
+          "name": "DANUBE",
+          "count": 1,
+          "state": "displayed",
+          "path": "DANUBE"
+        },
+        {
+          "name": "DAUMESNIL",
+          "count": 1,
+          "state": "displayed",
+          "path": "DAUMESNIL"
+        },
+        {
+          "name": "DENFERT-ROCHEREAU",
+          "count": 1,
+          "state": "displayed",
+          "path": "DENFERT-ROCHEREAU"
+        },
+        {
+          "name": "DUGOMMIER",
+          "count": 1,
+          "state": "displayed",
+          "path": "DUGOMMIER"
+        },
+        {
+          "name": "DUPLEIX",
+          "count": 1,
+          "state": "displayed",
+          "path": "DUPLEIX"
+        },
+        { "name": "DUROC", "count": 1, "state": "displayed", "path": "DUROC" },
+        {
+          "name": "ECOLE MILITAIRE",
+          "count": 1,
+          "state": "displayed",
+          "path": "ECOLE MILITAIRE"
+        },
+        {
+          "name": "ECOLE VETERINAIRE DE MAISONS-ALFORT",
+          "count": 1,
+          "state": "displayed",
+          "path": "ECOLE VETERINAIRE DE MAISONS-ALFORT"
+        },
+        {
+          "name": "EDGAR QUINET",
+          "count": 1,
+          "state": "displayed",
+          "path": "EDGAR QUINET"
+        },
+        {
+          "name": "EGLISE D'AUTEUIL",
+          "count": 1,
+          "state": "displayed",
+          "path": "EGLISE D'AUTEUIL"
+        },
+        {
+          "name": "EGLISE DE PANTIN",
+          "count": 1,
+          "state": "displayed",
+          "path": "EGLISE DE PANTIN"
+        },
+        {
+          "name": "ESPLANADE DE LA DEFENSE",
+          "count": 1,
+          "state": "displayed",
+          "path": "ESPLANADE DE LA DEFENSE"
+        },
+        {
+          "name": "ETIENNE MARCEL",
+          "count": 1,
+          "state": "displayed",
+          "path": "ETIENNE MARCEL"
+        },
+        {
+          "name": "EUROPE",
+          "count": 1,
+          "state": "displayed",
+          "path": "EUROPE"
+        },
+        {
+          "name": "EXELMANS",
+          "count": 1,
+          "state": "displayed",
+          "path": "EXELMANS"
+        },
+        {
+          "name": "FAIDHERBE-CHALIGNY",
+          "count": 1,
+          "state": "displayed",
+          "path": "FAIDHERBE-CHALIGNY"
+        },
+        {
+          "name": "FALGUIERE",
+          "count": 1,
+          "state": "displayed",
+          "path": "FALGUIERE"
+        },
+        {
+          "name": "FELIX FAURE",
+          "count": 1,
+          "state": "displayed",
+          "path": "FELIX FAURE"
+        },
+        {
+          "name": "FILLES DU CALVAIRE",
+          "count": 1,
+          "state": "displayed",
+          "path": "FILLES DU CALVAIRE"
+        },
+        {
+          "name": "FORT D'AUBERVILLIERS",
+          "count": 1,
+          "state": "displayed",
+          "path": "FORT D'AUBERVILLIERS"
+        },
+        {
+          "name": "FRANKLIN D. ROOSEVELT",
+          "count": 1,
+          "state": "displayed",
+          "path": "FRANKLIN D. ROOSEVELT"
+        },
+        {
+          "name": "FRONT POPULAIRE",
+          "count": 1,
+          "state": "displayed",
+          "path": "FRONT POPULAIRE"
+        },
+        {
+          "name": "FUNICULAIRE",
+          "count": 1,
+          "state": "displayed",
+          "path": "FUNICULAIRE"
+        }
+      ]
+    },
+    {
+      "name": "ville",
+      "facets": [
+        {
+          "name": "Paris",
+          "count": 244,
+          "state": "displayed",
+          "path": "Paris"
+        },
+        {
+          "name": "Boulogne Billancourt",
+          "count": 5,
+          "state": "displayed",
+          "path": "Boulogne Billancourt"
+        },
+        {
+          "name": "Cr\u00e9teil",
+          "count": 4,
+          "state": "displayed",
+          "path": "Cr\u00e9teil"
+        },
+        {
+          "name": "Saint Denis",
+          "count": 4,
+          "state": "displayed",
+          "path": "Saint Denis"
+        },
+        {
+          "name": "Levallois-Perret",
+          "count": 3,
+          "state": "displayed",
+          "path": "Levallois-Perret"
+        },
+        {
+          "name": "Maisons -Alfort",
+          "count": 3,
+          "state": "displayed",
+          "path": "Maisons -Alfort"
+        },
+        {
+          "name": "Montreuil",
+          "count": 3,
+          "state": "displayed",
+          "path": "Montreuil"
+        },
+        {
+          "name": "Pantin",
+          "count": 3,
+          "state": "displayed",
+          "path": "Pantin"
+        },
+        {
+          "name": "Villejuif",
+          "count": 3,
+          "state": "displayed",
+          "path": "Villejuif"
+        },
+        {
+          "name": "Asni\u00e8res sur Seine",
+          "count": 2,
+          "state": "displayed",
+          "path": "Asni\u00e8res sur Seine"
+        },
+        {
+          "name": "Aubervilliers",
+          "count": 2,
+          "state": "displayed",
+          "path": "Aubervilliers"
+        },
+        {
+          "name": "Charenton",
+          "count": 2,
+          "state": "displayed",
+          "path": "Charenton"
+        },
+        {
+          "name": "Issy Les Moulineaux",
+          "count": 2,
+          "state": "displayed",
+          "path": "Issy Les Moulineaux"
+        },
+        { "name": "Ivry", "count": 2, "state": "displayed", "path": "Ivry" },
+        {
+          "name": "Malakoff",
+          "count": 2,
+          "state": "displayed",
+          "path": "Malakoff"
+        },
+        {
+          "name": "Neuilly Sur Seine",
+          "count": 2,
+          "state": "displayed",
+          "path": "Neuilly Sur Seine"
+        },
+        {
+          "name": "Puteaux",
+          "count": 2,
+          "state": "displayed",
+          "path": "Puteaux"
+        },
+        {
+          "name": "Saint Ouen",
+          "count": 2,
+          "state": "displayed",
+          "path": "Saint Ouen"
+        },
+        {
+          "name": "Vincennes",
+          "count": 2,
+          "state": "displayed",
+          "path": "Vincennes"
+        },
+        {
+          "name": "Asni\u00e8res",
+          "count": 1,
+          "state": "displayed",
+          "path": "Asni\u00e8res"
+        },
+        {
+          "name": "Bagnolet",
+          "count": 1,
+          "state": "displayed",
+          "path": "Bagnolet"
+        },
+        {
+          "name": "Bobigny",
+          "count": 1,
+          "state": "displayed",
+          "path": "Bobigny"
+        },
+        {
+          "name": "Chatillon",
+          "count": 1,
+          "state": "displayed",
+          "path": "Chatillon"
+        },
+        {
+          "name": "Clichy",
+          "count": 1,
+          "state": "displayed",
+          "path": "Clichy"
+        },
+        {
+          "name": "Kremlin-Bic\u00eatre",
+          "count": 1,
+          "state": "displayed",
+          "path": "Kremlin-Bic\u00eatre"
+        },
+        {
+          "name": "La Courneuve",
+          "count": 1,
+          "state": "displayed",
+          "path": "La Courneuve"
+        },
+        {
+          "name": "Les Lilas",
+          "count": 1,
+          "state": "displayed",
+          "path": "Les Lilas"
+        },
+        {
+          "name": "Montrouge",
+          "count": 1,
+          "state": "displayed",
+          "path": "Montrouge"
+        },
+        {
+          "name": "Saint Denis / Aubervilliers",
+          "count": 1,
+          "state": "displayed",
+          "path": "Saint Denis / Aubervilliers"
+        },
+        {
+          "name": "Saint Mand\u00e9",
+          "count": 1,
+          "state": "displayed",
+          "path": "Saint Mand\u00e9"
+        }
+      ]
+    },
+    {
+      "name": "arrondissement_pour_paris",
+      "facets": [
+        { "name": "16", "count": 20, "state": "displayed", "path": "16" },
+        { "name": "12", "count": 19, "state": "displayed", "path": "12" },
+        { "name": "15", "count": 19, "state": "displayed", "path": "15" },
+        { "name": "13", "count": 18, "state": "displayed", "path": "13" },
+        { "name": "11", "count": 16, "state": "displayed", "path": "11" },
+        { "name": "8", "count": 15, "state": "displayed", "path": "8" },
+        { "name": "17", "count": 15, "state": "displayed", "path": "17" },
+        { "name": "19", "count": 15, "state": "displayed", "path": "19" },
+        { "name": "9", "count": 13, "state": "displayed", "path": "9" },
+        { "name": "18", "count": 13, "state": "displayed", "path": "18" },
+        { "name": "14", "count": 12, "state": "displayed", "path": "14" },
+        { "name": "7", "count": 11, "state": "displayed", "path": "7" },
+        { "name": "20", "count": 11, "state": "displayed", "path": "20" },
+        { "name": "10", "count": 10, "state": "displayed", "path": "10" },
+        { "name": "6", "count": 9, "state": "displayed", "path": "6" },
+        { "name": "1", "count": 7, "state": "displayed", "path": "1" },
+        { "name": "3", "count": 6, "state": "displayed", "path": "3" },
+        { "name": "4", "count": 6, "state": "displayed", "path": "4" },
+        { "name": "5", "count": 5, "state": "displayed", "path": "5" },
+        { "name": "2", "count": 4, "state": "displayed", "path": "2" }
+      ]
+    }
+  ]
+}
