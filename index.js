@@ -6,8 +6,6 @@ const session = require("express-session")
 const app = express()
 const port = 5000
 
-console.log(process.env.DB_URL)
-
 
 const { dbConnect }  = require ('./dbConfig/db')
 
