@@ -11,40 +11,18 @@ const PropertySchema = Schema({
     auction: [
         { type: Schema.Types.ObjectId, ref: "Auction" }
     ],
-    lines: {
-        type: Array,
-        required: true
-    },
-    isHub: {
-        type: Boolean,
-        required: true
-    },
-    currentValue: {
-        type: Number,
-        required: true
-    },
-    initialValue: {
-        type: Number,
-        required: true
-    },
-    traffic: {
-        type: Number,
-        required: true
-    },
-    slice: {
-        type: Number,
-        required: true
-    },
+    lines: Array,
+    isHub:  Boolean,
+    currentValue: Number,
+    initialValue: Number,
+    traffic: Number,
     ratio: Number,
     vendingMachines: Number,
     shops: Number,
     shoppingMall: Number,
     hasMonument: Boolean,
     monument: String,
-    index: {
-        type: Array,
-        required: true
-    },
+    index: Array,
     latitude: {
         type: Number,
         required: true

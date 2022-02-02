@@ -37,3 +37,5 @@ app.put('/:id', async (req, res) => {
     
     res.json(card)
 })
+
+module.exports = app

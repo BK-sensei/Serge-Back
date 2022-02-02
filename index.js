@@ -13,6 +13,9 @@ const { dbConnect } = require ('./config/db')
 
 dbConnect()
 
+const propertiesRoutes = require("./routes/properties")
+const cardsRoutes = require("./routes/cards")
+
 app.use(express.json())
 
 app.use(cors({
@@ -29,6 +32,9 @@ app.use(session({
     resave: true,
     saveUninitialized: false
 }))
+
+app.use('/properties', propertiesRoutes)
+app.use('/cards', cardsRoutes)
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
