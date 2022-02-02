@@ -11,8 +11,9 @@ const AuctionSchema = Schema({
         {type: Schema.Types.ObjectId, ref :"Bid"}
     ],
     active : Boolean,
+    startDate : Date,
+    endDate: Date
 })
-
 
 
 const Auction = mongoose.model('Auction', AuctionSchema)
