@@ -53,7 +53,6 @@ app.get('/:id', async (req, res) => {
     }
 })
 
-
 // Modifier les informations d'un joueur
 app.put('/:id', async (req, res) => {
     const { id } = req.params
