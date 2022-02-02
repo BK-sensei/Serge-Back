@@ -15,8 +15,10 @@ const AuctionSchema = Schema({
     active : Boolean,
     startDate : Date,
     endDate: Date
+},{
+    timestamps: true
 })
 
 
-const Auction = mongoose.model('Auction', AuctionSchema)
+const Auction = model('Auction', AuctionSchema)
 module.exports = Auction

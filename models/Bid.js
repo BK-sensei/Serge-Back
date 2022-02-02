@@ -21,3 +21,7 @@ BidSchema.post("save", async function(doc) {
       { $push: { bids: id, user}}
     )
   })
+  
+
+const Bid = model('Bid', BidSchema)
+module.exports = Bid
