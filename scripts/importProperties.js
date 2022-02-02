@@ -11,13 +11,16 @@ db.once("open", () => console.log("connect to db"))
 
 // Récupérer le json des stations
 const stations = require("../json/stations.json")
-console.log(stations.freq.KLEBER)
+//console.log(stations.freq.KLEBER)
 
 
 // Récupérer les infos de l'api ratp
 const stationsWithTraffic = require("../json/traffic.json")
-console.log(stationsWithTraffic.records[0])
+//console.log(stationsWithTraffic.records[0])
 
+stationsWithTraffic.records.forEach(element => {
+    element.fields.station = element.fields.station.replace(/-/g, ' ').replace("'", ' ')
+});
 
 // Mixer les deux jeux de données pour avoir 
 // les propriétés avec les bonnes informations
@@ -25,13 +28,14 @@ const stationNames = Object.keys(stations.freq)
 
 const properties = stationNames.map(stationName => {
     const oldStation = stations.freq[stationName]
-    // const stationWithTraffic = stationsWithTraffic.records.find(s => s.station === stationName)
+    const stationWithTraffic = stationsWithTraffic.records.find(s => s.fields.station === stationName)
+    // console.log(stationWithTraffic)
 
     return {
         name: oldStation.name,
         latitude: oldStation.latitude,
         longitude: oldStation.longitude,
-        //traffic: stationWithTraffic.fields.trafic
+        traffic: stationWithTraffic.fields.trafic
     }
 })
 
@@ -40,8 +44,10 @@ const properties = stationNames.map(stationName => {
 const Property = require("../models/Property")
 
 const insertProperties = async () => {
-    // await Property.deleteMany({})
+    await Property.deleteMany({})
     const insertedProperties = await Property.insertMany(properties)
+    console.log(insertedProperties);
 }
 
 insertProperties()
+
