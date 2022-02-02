@@ -11,6 +11,8 @@ const session = require("express-session")
 
 const { dbConnect } = require ('./config/db')
 
+const userRoutes = require("./routes/user")
+
 dbConnect()
 
 app.use(express.json())
@@ -29,6 +31,11 @@ app.use(session({
     resave: true,
     saveUninitialized: false
 }))
+
+app.use(passport.initialize())
+app.use(passport.session())
+
+app.use("/users", userRoutes)
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)

@@ -1,4 +1,4 @@
-const verifyUser = (req, res, next) => {
+const verifyExistingUser = (req, res, next) => {
     if (!req.user) { 
         res.status(401).send("Unauthorized")
     } else {
@@ -7,5 +7,5 @@ const verifyUser = (req, res, next) => {
 }
 
 module.exports = {
-    verifyUser
+    verifyExistingUser
 }
