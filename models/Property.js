@@ -1,30 +1,60 @@
 const { Schema, model } = require("mongoose")
 
 const PropertySchema = Schema({
-    name: String,
+    name: {
+        type: String,
+        required: true
+    },
     owner: [
         { type: Schema.Types.ObjectId, ref: "User" }
     ],
     auction: [
         { type: Schema.Types.ObjectId, ref: "Auction" }
     ],
-    line: Array,
-    isHub: Boolean,
-    currentValue: Number,
-    tax: Number,
+    lines: {
+        type: Array,
+        required: true
+    },
+    isHub: {
+        type: Boolean,
+        required: true
+    },
+    currentValue: {
+        type: Number,
+        required: true
+    },
+    initialValue: {
+        type: Number,
+        required: true
+    },
+    traffic: {
+        type: Number,
+        required: true
+    },
+    slice: {
+        type: Number,
+        required: true
+    },
     ratio: Number,
     vendingMachines: Number,
     shops: Number,
     shoppingMall: Number,
     hasMonument: Boolean,
     monument: String,
-    initialValue: Number,
-    traffic: Number,
-    slice: Number,
-    index: Object,
-    latitude: Number,
-    longitude: Number,
+    index: {
+        type: Array,
+        required: true
+    },
+    latitude: {
+        type: Number,
+        required: true
+    },
+    longitude: {
+        type: Number,
+        required: true
+    },
 })
 
 const Property = model("Property", PropertySchema)
+
 module.exports = Property

@@ -1,18 +1,22 @@
 require('dotenv').config()
 const express = require("express")
+const app = express()
+const port = process.env.PORT
+const mongoose = require("mongoose")
 const morgan = require("morgan")
 const cors = require("cors")
+
+const passport = require("./config/passport")
 const session = require("express-session")
-const app = express()
-const port = 5000
 
-
-const { dbConnect }  = require ('./dbConfig/db')
+const { dbConnect } = require ('./config/db')
 
 dbConnect()
 
+app.use(express.json())
+
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: process.env.ALLOWED_DOMAIN,
     credentials: true
 }))
 
