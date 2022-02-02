@@ -43,18 +43,5 @@ app.put('/:id', async (req, res) => {
     res.json(property)
 })
 
-// Pour créer une amélioration ou créer la currentValue
-app.post('/:id', async (req, res) => {
-    const { id } = req.params
-  
-    // const property = await Property.findOneAndUpdate(
-    //   { _id: id },
-    //   { $set: { ...req.body } },
-    //   { new: true }
-    // )
-  
-    res.json(property)
-})
-
 
 module.exports = app

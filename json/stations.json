@@ -61,7 +61,7 @@
         "connexion": {}
       }, 
       "BIBLIOTHEQUE": {
-        "name": "Bibliotheque-Francois Mitterrand", 
+        "name": "Bibliotheque Francois Mitterrand", 
         "lines": [
           14
         ], 
@@ -1180,7 +1180,7 @@
         "connexion": {}
       }, 
       "PALAIS ROYAL": {
-        "name": "Palais-Royal (Mus\u00e9e du Louvre)", 
+        "name": "Palais-Royal Mus\u00e9e du Louvre", 
         "lines": [
           1, 
           7
@@ -1337,7 +1337,7 @@
         "connexion": {}
       }, 
       "LA DEFENSE": {
-        "name": "La D\u00e9fense (Grande Arche)", 
+        "name": "La D\u00e9fense Grande Arche", 
         "lines": [
           1
         ], 
@@ -1847,7 +1847,7 @@
         "connexion": {}
       }, 
       "BIR HAKEIM": {
-        "name": "Bir-Hakeim (Grenelle)", 
+        "name": "Bir-Hakeim", 
         "lines": [
           6
         ], 
