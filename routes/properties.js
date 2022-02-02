@@ -30,7 +30,7 @@ app.get('/:id', async (req, res) => {
     res.json(property)
 })
 
-// Mettre à jour la valeur d'une propriété et ses améliorations
+// Mettre à jour les données d'une propriété
 app.put('/:id', async (req, res) => {
     const { id } = req.params
   

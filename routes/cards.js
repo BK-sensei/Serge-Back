@@ -25,4 +25,15 @@ app.get('/:id', async (req, res) => {
     res.json(card)
 })
 
-// Mettre à jour le "used" de la carte
+// Mettre à jour les infos de la carte (owner, used, auction)
+app.put('/:id', async (req, res) => {
+    const { id } = req.params
+  
+    const card = await Card.findOneAndUpdate(
+        { _id: id },
+        { $set: { ...req.body } },
+        { new: true }
+    )
+    
+    res.json(card)
+})
