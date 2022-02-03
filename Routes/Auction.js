@@ -16,7 +16,7 @@ app.post('/',async(req,res)=>{
         let present = moment()
         let future = moment().add(2, 'seconds')
         // let future = m
-        const auction  = await  Auction.create({
+        const auction  = await Auction.create({
             user : user,
             card: card,
             property: property,

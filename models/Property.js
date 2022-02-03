@@ -5,24 +5,42 @@ const PropertySchema = Schema({
         type: String,
         required: true
     },
-    owner: [
+    owner:
         { type: Schema.Types.ObjectId, ref: "User" }
-    ],
-    auction: [
+    ,
+    auction:
         { type: Schema.Types.ObjectId, ref: "Auction" }
-    ],
-    lines: Array,
+    ,
+    lines: {
+        type: Array,
+        required: true
+    },
     isHub:  Boolean,
-    currentValue: Number,
-    initialValue: Number,
-    traffic: Number,
-    ratio: Number,
+    currentValue: {
+        type: Number,
+        required: true
+    },
+    initialValue: {
+        type: Number,
+        required: true
+    },
+    traffic: {
+        type: Number,
+        required: true
+    },
+    ratio: {
+        type: Number,
+        required: true
+    },
+    tax: {
+        type: Number,
+        required: true
+    },
     vendingMachines: Number,
     shops: Number,
     shoppingMall: Number,
-    hasMonument: Boolean,
-    monument: String,
-    index: Array,
+    monument: Object,
+    position: Array,
     latitude: {
         type: Number,
         required: true

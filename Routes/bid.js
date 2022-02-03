@@ -9,27 +9,25 @@ const Auction = require ('../models/Auction')
 
 app.post('/', async (req,res)=>{
     const {user,auction} = req.body
+
     try {
-        let present = moment().getTime()
-        let presentNum = present.getTime()
-            console.log("pleasework",present)
         const auctionCheck = await Auction.findById(auction)
         const auctionEndTime = auctionCheck.endDate
-        const endTimeNum = auctionEndTime.getTime()
-
-        if (presentNum >= endTimeNum){
-            const auctionClose = await Auction.findOneAndUpdate(
-            
-                {_id :auction},
-                {active : false},
-                {new: true}         
-        ). exec()
-
-        }else{
-
-            const bid = new Bid ({... req.body})
-            const bidInsered = await bid.save()
-            res.json(bidInsered)
+        const checkTIme = moment().isAfter(auctionEndTime)
+        
+        if(checkTIme){
+            const auctionUpdate = await Auction.findOneAndUpdate(
+                { _id: auctionCheck._id },
+                { $set: { active : false } },
+                { new: true }
+            )
+            res.json(auctionUpdate)
+        }
+        else{
+            const newBid = await Bid.create({
+                auction: auctionCheck._id
+            })
+            res.json(newBid)
         }
     } catch (err){
       console.log(err)

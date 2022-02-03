@@ -1,0 +1,107 @@
+[
+    {
+        "name":"La Tour Eiffel",
+        "station":"BIR-HAKEIM",
+        "pictureUrl": ""
+    },
+    {
+        "name":"Le Louvre",
+        "station":"LOUVRE",
+        "pictureUrl": "" 
+    },
+    {
+        "name":"L'Opéra Garnier",
+        "station":"OPERA",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Le Centre Pompidou",
+        "station":"RAMBUTEAU",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Le Sacré-Coeur",
+        "station":"ANVERS",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Notre-Dame de Paris",
+        "station":"CITE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Le Cimetière du Père Lachaise",
+        "station":"PERE LACHAISE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"La Concorde",
+        "station":"CONCORDE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Trocadéro",
+        "station":"TROCADERO",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"L'Arc de Triomphe",
+        "station":"CHARLES DE GAULLE-ETOILE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Le Palais des Congrès",
+        "station":"PORTE MAILLOT",
+        "pictureUrl": "" 
+    },
+    {
+        "name":"Le Moulin Rouge",
+        "station":"PIGALLE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Le Stade de France",
+        "station":"SAINT-DENIS-PORTE DE PARIS",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"La Grande Arche de La Défense",
+        "station":"LA DEFENSE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"La Philharmonie de Paris",
+        "station":"PORTE DE PANTIN",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"La Bibliotheque François Mitterrand",
+        "station":"BIBLIOTHEQUE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Le Parc des Princes",
+        "station":"PORTE DE SAINT-CLOUD",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"La Seine Musicale",
+        "station":"PONT DE SEVRES",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Parc zoologique de Paris",
+        "station":"PORTE DOREE",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"Les Invalides",
+        "station":"INVALIDES",
+        "pictureUrl": ""  
+    },
+    {
+        "name":"La Geode",
+        "station":"PORTE DE LA VILLETTE",
+        "pictureUrl": ""  
+    }
+]

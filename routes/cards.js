@@ -17,10 +17,10 @@ app.get('/', async (req, res) => {
 app.get('/:id', async (req, res) => {
     const { id } = req.params
   
-    const card = await Card.findById( _id)
-        .populate('owner', 'username')
-        .populate('used')
-        .populate('auction')
+    const card = await Card.findOne({ _id : id })
+        // .populate('owner', 'username')
+        // .populate('used')
+        // .populate('auction')
        
     res.json(card)
 })

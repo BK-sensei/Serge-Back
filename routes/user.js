@@ -2,12 +2,16 @@ const express = require("express")
 const app = express()
 
 const User = require("../models/User")
+const Property = require ("../models/Property")
 
 // Afficher tous les joueurs
 app.get('/', async (req, res) => {
     try {
         const users = await User.find()
-        // .populate('user')
+        .populate({
+            path : 'user',
+            model : 'User'
+        })
         .exec()
 
         res.json(users)
@@ -23,7 +27,10 @@ app.get('/:id', async (req, res) => {
 
     try {
         const user = await User.findById(id)
-        // .populate('user')
+        .populate({
+            path : 'user',
+            model : 'User'
+        })
         .exec()
 
         res.json(user)
@@ -62,6 +69,31 @@ app.delete('/:id', async (req, res) => {
     } catch (err) {
         console.log(err)
         res.status(500).json({ error : err })
+    }
+})
+
+/// achat proprieté 
+
+app.put('/:id/:property',async(req,res)=>{
+    const {id , property } = req.params
+
+    try{
+        const stationCheck = await Property.findById(id)
+        const price = stationCheck.currentValue
+     const userBuy =  await User.findOneAndUpdate(
+            {_id : id},
+            {$push: {properties : property}},
+            {$set : {balance : balance - price }},
+            {new :true}
+        ).exec()
+    const stationSell = await Property.findOneAndUpdate(
+        {_id : property},
+        {$set : {user : id}},
+        {new : true}
+    ).exec()
+    }catch (err){
+        console.log(err)
+        res.status(500).json({error : err})
     }
 })
 
