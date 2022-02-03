@@ -15,6 +15,9 @@ const bidRoutes = require ('./Routes/bid')
 
 dbConnect()
 
+const propertiesRoutes = require("./routes/properties")
+const cardsRoutes = require("./routes/cards")
+
 app.use(express.json())
 
 app.use(cors({
@@ -34,6 +37,8 @@ app.use(session({
 
 app.use('/auction',auctionsRoutes)
 app.use('/bid', bidRoutes)
+app.use('/properties', propertiesRoutes)
+app.use('/cards', cardsRoutes)
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)

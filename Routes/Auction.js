@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
+
 const moment = require ('moment')
+
 const Auction = require ('../models/Auction')
 
 
@@ -9,17 +11,18 @@ const Auction = require ('../models/Auction')
 app.post('/',async(req,res)=>{
     
     const {user, card, property} = req.body
-
     
     try {
         let present = moment()
+        let future = moment().add(2, 'days')
         // let future = m
         const auction  = await  Auction.create({
             user : user,
             card: card,
             property: property,
             startDate : present,
-            // endDate : 
+            endDate : future,
+            active : true 
         })
         res.json(auction)
 
