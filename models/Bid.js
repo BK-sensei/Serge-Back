@@ -11,5 +11,17 @@ const BidSchema = Schema({
 
 },{
     timestamps: true
-    }
-)
+})
+
+BidSchema.post("save", async function(doc) {
+    const id = doc._id
+    const user = doc.user
+    await model("Auction").updateOne(
+      { _id: doc.auction },
+      { $push: { bids: id, user}}
+    )
+  })
+  
+
+const Bid = model('Bid', BidSchema)
+module.exports = Bid

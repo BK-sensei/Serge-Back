@@ -33,9 +33,8 @@ const properties = stationNames.map(stationName => {
     const oldStation = stations.freq[stationName]  
     const stationWithTraffic = stationsWithTraffic.records.find(s => s.fields.station === stationName)
     const stationWitMonument = monuments.find(m => m.station === stationName)
-    // console.log(stationWitMonument)  
+    console.log(stationWitMonument)  
      
-  
     const traffic = stationWithTraffic.fields.trafic
     let initialValue = 0
     let tax = 0

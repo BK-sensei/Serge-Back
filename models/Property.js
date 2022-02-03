@@ -39,7 +39,7 @@ const PropertySchema = Schema({
     vendingMachines: Number,
     shops: Number,
     shoppingMall: Number,
-    monument: String,
+    monument: Object,
     position: Array,
     latitude: {
         type: Number,

@@ -3,7 +3,8 @@ const app = express()
 
 const Property = require("../models/Property")
 
-// require middlewares
+// middlewares
+const { verifyOwner, verifyUpgrade } = require("../middlewares/properties")
 
 
 // Récupérer toutes les propriétés
@@ -17,21 +18,21 @@ app.get('/', async (req, res) => {
 app.get('/:id', async (req, res) => {
     const { id } = req.params
   
-    const property = await Property.findById( _id)
-        .populate('owner', 'username')
-        .populate('auction')
-        .populate('currentValue')
-        .populate('ratio')
-        .populate('vendingMachines')
-        .populate('shops')
-        .populate('shoppingMall')
-        .populate('monument')       
+    const property = await Property.findOne({ _id : id })
+        // .populate('owner', 'username')
+        // .populate('auction')
+        // .populate('currentValue')
+        // .populate('ratio')
+        // .populate('vendingMachines')
+        // .populate('shops')
+        // .populate('shoppingMall')
+        // .populate('monument')       
   
     res.json(property)
 })
 
 // Mettre à jour les données d'une propriété
-app.put('/:id', async (req, res) => {
+app.put('/:id',verifyOwner, async (req, res) => {
     const { id } = req.params
   
     const property = await Property.findOneAndUpdate(
