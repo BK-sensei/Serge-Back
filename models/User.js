@@ -1,4 +1,5 @@
 const { Schema, model } = require('mongoose')
+const Property = require("./Property")
 
 const UserSchema = new Schema ({
     username: {
@@ -16,7 +17,6 @@ const UserSchema = new Schema ({
     },
     pictureUrl: {
         type: String,
-        required: true,
     },
     balance: {
         type: Number,
@@ -36,6 +36,13 @@ const UserSchema = new Schema ({
     ],
 }, {
     timestamps: true
+})
+
+// Avant de remove un user, on supprime ses propriétés
+UserSchema.pre("deleteOne", async function(next) {
+    const { _id } = this.getFilter()
+
+    await Property.deleteMany({ user: _id })
 })
 
 
