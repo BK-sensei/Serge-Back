@@ -3,26 +3,6 @@ const app = express()
 
 const User = require("../models/User")
 
-// Créer un compte pour jouer
-app.post('/', async (req, res) => {
-    try {
-        const user = await new User({ ...req.body })
-
-        user.save(async (err, user) => {
-            if (user) {
-                res.json(user)
-                return
-            }
-
-            console.log(err)
-            res.status(500).json({ error : err })
-        })
-    } catch (err) {
-        console.log(err)
-        res.status(500).json({ error : err })
-    }
-})
-
 // Afficher tous les joueurs
 app.get('/', async (req, res) => {
     try {
