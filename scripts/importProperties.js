@@ -32,9 +32,11 @@ const stationNames = Object.keys(stations.freq)
 const properties = stationNames.map(stationName => {
     const oldStation = stations.freq[stationName]  
     const stationWithTraffic = stationsWithTraffic.records.find(s => s.fields.station === stationName)
-    const stationWitMonument = monuments.find(m => m.station === stationName)
-    console.log(stationWitMonument)  
-     
+    const stationWithMonument = monuments.find(m => m.station === stationName)
+    console.log(stationWithMonument)  
+    console.log(stationName) 
+    
+
     const traffic = stationWithTraffic.fields.trafic
     let initialValue = 0
     let tax = 0
@@ -82,6 +84,8 @@ const properties = stationNames.map(stationName => {
     return {
         name: oldStation.name,
         lines: oldStation.lines,
+        owner: null,
+        auction: null,
         isHub: isHub,
         latitude: oldStation.latitude,
         longitude: oldStation.longitude,
@@ -92,10 +96,9 @@ const properties = stationNames.map(stationName => {
         vendingMachines: 0,
         shops: 0,
         shoppingMall: 0,
-        monument: stationWitMonument, 
+        monument: stationWithMonument, 
         ratio: 1,
-        position: position
-        // ratio: 1 + (vendingMachines.value*0.2) + (shops.value*0.4) + (shoppingMall.value*0.6),     
+        position: position  
     }
 
 })
