@@ -8,5 +8,4 @@ const verifyOwner = (req, res, next) => {
 
 module.exports = {
     verifyOwner,
-    verifyUpgrade
 }

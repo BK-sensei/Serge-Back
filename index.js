@@ -19,8 +19,8 @@ dbConnect()
 
 const propertiesRoutes = require("./routes/properties")
 const cardsRoutes = require("./routes/cards")
-const auctionsRoutes = require ('./Routes/Auction')
-const bidRoutes = require ('./Routes/bid')
+const auctionsRoutes = require ('./routes/auction')
+const bidRoutes = require ('./routes/bid')
 const userRoutes = require("./routes/user")
 const authRoutes = require("./routes/authentication")
 
@@ -36,6 +36,9 @@ dbConnect()
 app.use(express.json())
 app.use(morgan("tiny"))
 
+app.use(passport.initialize())
+app.use(passport.session())
+
 app.use(session({
     secret: "secret",
     resave: true,
@@ -48,9 +51,6 @@ app.use('/properties', propertiesRoutes)
 app.use('/cards', cardsRoutes)
 app.use("/users", userRoutes)
 app.use("/auth", authRoutes)
-
-app.use(passport.initialize())
-app.use(passport.session())
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)

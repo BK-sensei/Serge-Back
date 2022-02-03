@@ -5,12 +5,12 @@ const PropertySchema = Schema({
         type: String,
         required: true
     },
-    owner: [
+    owner:
         { type: Schema.Types.ObjectId, ref: "User" }
-    ],
-    auction: [
+    ,
+    auction:
         { type: Schema.Types.ObjectId, ref: "Auction" }
-    ],
+    ,
     lines: {
         type: Array,
         required: true
