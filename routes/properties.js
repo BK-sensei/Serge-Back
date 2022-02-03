@@ -44,8 +44,21 @@ app.put('/:id', async (req, res) => {
 })
 
 // Pour créer une amélioration ou créer la currentValue
-app.post('/:id', async (req, res) => {
-    const { id } = req.params
+app.put('/:id/:upgrade', async (req, res) => {
+    const { id, upgrade } = req.params
+    const checkProperty = await Property.findById(id)
+    const checkRatio = checkProperty.ratio
+
+    // if (upgrade === "vendingmachine"){
+    //     if (checkRatio <= )
+    //     ////
+    // } else if ( upgrade === "shop"){
+    //     ///
+    // } else if ( upgrade === "mall"){
+    //     ////
+    // } else if ( upgrade === "monument"){
+
+    // }
   
     // const property = await Property.findOneAndUpdate(
     //   { _id: id },
