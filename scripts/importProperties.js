@@ -77,7 +77,7 @@ const properties = stationNames.map(stationName => {
 
     // console.log(oldStation.lines)
 
-    if (oldStation.lines.length > 0) {
+    if (oldStation.lines.length > 1) {
         isHub = true
     }
 
