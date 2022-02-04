@@ -49,6 +49,8 @@ const PropertySchema = Schema({
         type: Number,
         required: true
     },
+    class: String,
+    range: Number,
 })
 
 const Property = model("Property", PropertySchema)

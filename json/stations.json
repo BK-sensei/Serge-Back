@@ -1783,7 +1783,8 @@
         "rank": 4.0, 
         "key": "MONTPARNASSE BIENVENUE", 
         "latitude": 2.32263505064878, 
-        "connexion": {}
+        "connexion": {},
+        "railStation": true
       }, 
       "SAINT JACQUES": {
         "name": "Saint-Jacques", 
@@ -2153,7 +2154,8 @@
         "rank": 2.0, 
         "key": "SAINT LAZARE", 
         "latitude": 2.326185658552, 
-        "connexion": {}
+        "connexion": {},
+        "railStation": true
       }, 
       "LES GOBELINS": {
         "name": "Les Gobelins", 
@@ -2397,7 +2399,8 @@
         "rank": 1.0, 
         "key": "GARE DU NORD", 
         "latitude": 2.35470307836603, 
-        "connexion": {}
+        "connexion": {},
+        "railStation": true
       }, 
       "POISSONNIERE": {
         "name": "Poissonni\u00e8re", 
@@ -3388,7 +3391,8 @@
         "rank": 5.0, 
         "key": "GARE DE L EST", 
         "latitude": 2.35791867724751, 
-        "connexion": {}
+        "connexion": {},
+        "railStation": true
       }, 
       "PORTE DE LA CHAPELLE": {
         "name": "Porte de la Chapelle", 
@@ -3595,7 +3599,8 @@
         "rank": 3.0, 
         "key": "GARE DE LYON", 
         "latitude": 2.37406590751466, 
-        "connexion": {}
+        "connexion": {},
+        "railStation": true
       }, 
       "AVENUE EMILE ZOLA": {
         "name": "Avenue Emile-Zola", 

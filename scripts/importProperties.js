@@ -41,6 +41,7 @@ const properties = stationNames.map(stationName => {
     let initialValue = 0
     let tax = 0
     let isHub = false
+    let classLine = ""
     let index = 0
     let position = oldStation.lines.map(line => {
         return [line, index]
@@ -49,36 +50,50 @@ const properties = stationNames.map(stationName => {
     if (traffic < 1000000) {
         initialValue = 500
         tax = 100
+        range = 1
     } 
     if (1000000 < traffic && traffic < 2000000) {
         initialValue = 1000 
         tax = 200
+        range = 2
     }  
     if  (2000000 < traffic && traffic < 5000000) {
         initialValue = 1500
         tax = 300
+        range = 3
     }  
     if  (5000000 < traffic && traffic < 8000000) {
         initialValue = 2500 
         tax = 400
+        range = 4
     }  
     if  (8000000 < traffic && traffic < 10000000) {
         initialValue = 5000 
         tax = 500
+        range = 6
     }  
     if  (10000000 < traffic && traffic < 30000000) {
         initialValue = 8000 
         tax = 600
+        range = 7
     }  
     if (130000000 < traffic) {
         initialValue = 10000  
         tax = 700
+        range = 8
     }
 
     // console.log(oldStation.lines)
 
     if (oldStation.lines.length > 1) {
         isHub = true
+        if (oldStation.railStation) {
+            classLine = "railStation"
+        } else {
+            classLine = "hub"
+        }
+    } else {
+        classLine = `line_${oldStation.lines[0]}`
     }
 
     return {
@@ -98,7 +113,9 @@ const properties = stationNames.map(stationName => {
         shoppingMall: 0,
         monument: stationWithMonument, 
         ratio: 1,
-        position: position  
+        position: position,
+        class: classLine,
+        range: range
     }
 
 })
