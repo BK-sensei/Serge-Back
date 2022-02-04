@@ -77,7 +77,7 @@ const properties = stationNames.map(stationName => {
         tax = 600
         range = 7
     }  
-    if (130000000 < traffic) {
+    if (30000000 < traffic) {
         initialValue = 10000  
         tax = 700
         range = 8
