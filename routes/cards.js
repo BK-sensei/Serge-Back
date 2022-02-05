@@ -3,8 +3,6 @@ const app = express()
 
 const Card = require("../models/Card")
 
-// require middlewares
-
 
 // Récupérer toutes les cartes chance
 app.get('/', async (req, res) => {

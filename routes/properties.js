@@ -4,7 +4,7 @@ const app = express()
 const Property = require("../models/Property")
 
 // middlewares
-const { verifyOwner, verifyUpgrade } = require("../middlewares/properties")
+const { verifyOwner } = require("../middlewares/properties")
 
 
 // Récupérer toutes les propriétés

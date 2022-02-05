@@ -20,7 +20,6 @@ const userRoutes = require("./routes/user")
 const authRoutes = require("./routes/authentication")
 const propertiesRoutes = require("./routes/properties")
 const cardsRoutes = require("./routes/cards")
-const linesRoutes = require ('./routes/lines')
 const auctionsRoutes = require ('./routes/auction')
 const bidRoutes = require ('./routes/bid')
 
@@ -54,7 +53,6 @@ app.use('/auction',auctionsRoutes)
 app.use('/bid', bidRoutes)
 app.use('/properties', propertiesRoutes)
 app.use('/cards', cardsRoutes)
-app.use('/lines', linesRoutes)
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)
