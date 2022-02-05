@@ -777,7 +777,7 @@
         "connexion": {}
       }, 
       "PORTE D ORLEANS": {
-        "name": "Porte d'Orl\u00e9ans (G\u00e9n\u00e9ral Leclerc)", 
+        "name": "Porte d'Orl\u00e9ans", 
         "lines": [
           4
         ], 
@@ -1759,7 +1759,7 @@
         "connexion": {}
       }, 
       "PORTE DAUPHINE": {
-        "name": "Porte Dauphine (Mar\u00e9chal de Lattre de Tassigny)", 
+        "name": "Porte Dauphine", 
         "lines": [
           2
         ], 
@@ -3089,7 +3089,7 @@
         "connexion": {}
       }, 
       "GALLIENI": {
-        "name": "Gallieni (Parc de Bagnolet)", 
+        "name": "Gallieni", 
         "lines": [
           3
         ], 
@@ -3380,7 +3380,7 @@
         "connexion": {}
       }, 
       "GARE DE L EST": {
-        "name": "Gare de l'Est (Verdun)", 
+        "name": "Gare de l'Est", 
         "lines": [
           4, 
           5, 
