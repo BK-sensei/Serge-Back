@@ -6,10 +6,7 @@ const mongoose = require("mongoose")
 const morgan = require("morgan")
 const cors = require("cors")
 
-app.use(cors({
-    origin: process.env.ALLOWED_DOMAIN,
-    credentials: true
-}))
+console.log("origin",process.env.ALLOWED_DOMAIN);
 
 const passport = require("./config/passport")
 const session = require("express-session")
@@ -31,8 +28,6 @@ app.use(cors({
     origin: process.env.ALLOWED_DOMAIN,
     credentials: true
 }))
-
-dbConnect()
 
 app.use(express.json())
 app.use(morgan("tiny"))
