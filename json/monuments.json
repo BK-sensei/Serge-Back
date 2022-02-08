@@ -50,8 +50,8 @@
         "pictureUrl": ""  
     },
     {
-        "name":"Le Palais des Congrès",
-        "station":"PORTE MAILLOT",
+        "name":"Place de la Bastille",
+        "station":"BASTILLE",
         "pictureUrl": "" 
     },
     {
@@ -70,8 +70,8 @@
         "pictureUrl": ""  
     },
     {
-        "name":"La Philharmonie de Paris",
-        "station":"PORTE DE PANTIN",
+        "name":"La tour Montparnasse",
+        "station":"MONTPARNASSE BIENVENUE",
         "pictureUrl": ""  
     },
     {

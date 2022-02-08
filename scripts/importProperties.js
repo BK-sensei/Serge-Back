@@ -28,12 +28,13 @@ const monuments = require("../json/monuments.json")
 // Mixer les jeux de données pour avoir 
 // les propriétés avec les bonnes informations
 const stationNames = Object.keys(stations.freq)
+console.log(stationNames) 
 
 const properties = stationNames.map(stationName => {
     const oldStation = stations.freq[stationName]  
     const stationWithTraffic = stationsWithTraffic.records.find(s => s.fields.station === stationName)
     const stationWithMonument = monuments.find(m => m.station === stationName)
-    console.log(stationWithMonument)  
+    // console.log(stationWithMonument)  
     console.log(stationName) 
     
 
@@ -97,6 +98,7 @@ const properties = stationNames.map(stationName => {
     }
 
     return {
+        keyName: oldStation.key,
         name: oldStation.name,
         lines: oldStation.lines,
         owner: null,

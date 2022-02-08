@@ -3,18 +3,14 @@ const express = require("express")
 const app = express()
 const port = process.env.PORT
 const mongoose = require("mongoose")
+const passport = require("./config/passport")
+const session = require("express-session")
 const morgan = require("morgan")
 const cors = require("cors")
 
-app.use(cors({
-    origin: process.env.ALLOWED_DOMAIN,
-    credentials: true
-}))
-
-const passport = require("./config/passport")
-const session = require("express-session")
-
 const { dbConnect } = require ('./config/db')
+dbConnect()
+
 
 const userRoutes = require("./routes/user")
 const authRoutes = require("./routes/authentication")
@@ -22,20 +18,17 @@ const propertiesRoutes = require("./routes/properties")
 const cardsRoutes = require("./routes/cards")
 const auctionsRoutes = require ('./routes/auction')
 const bidRoutes = require ('./routes/bid')
+const linesRoutes = require ('./routes/lines')
 
-dbConnect()
 
 app.use(express.json())
+app.use(morgan("tiny"))
 
 app.use(cors({
     origin: process.env.ALLOWED_DOMAIN,
     credentials: true
 }))
 
-dbConnect()
-
-app.use(express.json())
-app.use(morgan("tiny"))
 
 app.use(session({
     secret: "secret",
@@ -53,6 +46,7 @@ app.use('/auction',auctionsRoutes)
 app.use('/bid', bidRoutes)
 app.use('/properties', propertiesRoutes)
 app.use('/cards', cardsRoutes)
+app.use('/lines', linesRoutes)
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`)

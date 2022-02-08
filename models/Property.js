@@ -1,6 +1,10 @@
 const { Schema, model } = require("mongoose")
 
 const PropertySchema = Schema({
+    keyName: {
+        type: String,
+        required: true
+    },
     name: {
         type: String,
         required: true
