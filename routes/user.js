@@ -21,6 +21,13 @@ app.get('/', async (req, res) => {
     }
 })
 
+// Afficher les 10 meilleures joueurs
+app.get('/top10', async (req, res) => {
+    const users = await User.find().sort({"balance": "desc"}).limit(10)
+  
+    res.json(users)
+})
+
 // Afficher un joueur selon son id
 app.get('/:id', async (req, res) => {
     const { id } = req.params
