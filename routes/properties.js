@@ -14,6 +14,13 @@ app.get('/', async (req, res) => {
     res.json(properties)
 })
 
+// Récupérer les 10 meilleures propriétés
+app.get('/top10', async (req, res) => {
+    const properties = await Property.find().sort({"traffic": "desc"}).limit(10)
+  
+    res.json(properties)
+})
+
 // Récupérer une propriété 
 app.get('/:id', async (req, res) => {
     const { id } = req.params

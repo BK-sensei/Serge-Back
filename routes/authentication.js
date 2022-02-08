@@ -32,7 +32,7 @@ app.post('/signup', verifyExistingUser, async (req, res) => {
       res.json(newUser)
     } catch (err) {
       console.log(err)
-      res.status(500).json({ error: "Oups, something went wrong" })
+      res.status(500).json({ error: "Something went wrong" })
     }
 })
 
