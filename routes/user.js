@@ -35,8 +35,8 @@ app.get('/:id', async (req, res) => {
     try {
         const user = await User.findById(id)
         .populate({
-            path : 'user',
-            model : 'User'
+            path : 'properties',
+            model : 'Property'
         })
         .exec()
 

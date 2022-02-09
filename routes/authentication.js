@@ -8,6 +8,7 @@ const { verifyExistingUser } = require("../middlewares/auth")
 // Se connecter à son compte SergeSubway
 app.post('/login', passport.authenticate("local"), async (req, res) => {
     console.log(req.user);
+    
     if (req.user) {
         req.logIn(req.user, err => {
             if(err) {
@@ -36,14 +37,37 @@ app.post('/signup', verifyExistingUser, async (req, res) => {
     }
 })
 
+
+
 // Rester connecté dans le front même lorsque l'on recharge la page
 // => à appeler en front dans le componentDidMount de mon context User
-app.get('/me', (req, res) => {
+app.get('/me', async (req, res) => {
+  
+  try {
     if (req.user) {
-      res.json(req.user)
+      const user = await User.findById(req.user._id)
+      .populate({
+          path : 'properties',
+          model : 'Property'
+      })
+      .exec()
+
+      res.json(user)
+
     } else {
       res.status(401).json({ error: "Unauthorized" })
     }
+
+  } catch (err) {
+      console.log(err)
+      res.status(500).json({ error : err })
+  }
+
+    // if (req.user) {
+    //   res.json(req.user)
+    // } else {
+    //   res.status(401).json({ error: "Unauthorized" })
+    // }
 })
 
 // Se déconnecter de son compte SergeSubway
