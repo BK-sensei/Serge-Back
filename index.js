@@ -4,13 +4,13 @@ const app = express()
 const port = process.env.PORT
 const mongoose = require("mongoose")
 const morgan = require("morgan")
-const cors = require("cors")
 
 console.log("origin",process.env.ALLOWED_DOMAIN);
 
 const passport = require("./config/passport")
 const session = require("express-session")
 
+const cors = require("cors")
 
 const { dbConnect } = require ('./config/db')
 dbConnect()
