@@ -52,11 +52,21 @@ app.put('/:id', async (req, res) => {
     const { id } = req.params
 
     try {
-        const user = await User.findOneAndUpdate(
+        const updatedUser = await User.findOneAndUpdate(
             { _id: id },
             { ...req.body },
             { new: true }
         ).exec()
+
+        const user = await User.findById(updatedUser._id)
+            .populate({
+                path : 'properties',
+                model : 'Property'
+            })
+            .populate('position')
+            .exec()
+
+
 
     res.json(user)
     } catch (err) {
