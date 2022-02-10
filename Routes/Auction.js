@@ -4,6 +4,8 @@ const app = express()
 const moment = require ('moment')
 
 const Auction = require ('../models/Auction')
+const Property = require ('../models/Property')
+
 
 
 
@@ -14,17 +16,21 @@ app.post('/',async(req,res)=>{
     
     try {
         let present = moment()
-        let future = moment().add(2, 'seconds')
+        let future = moment().add(2, 'days')
+        const propertyFinded = await Property.findById(property)
+
         // let future = m
-        const auction  = await Auction.create({
+        const auction  =  new Auction({
             user : user,
             card: card,
             property: property,
             startDate : present,
             endDate : future,
-            active : true 
+            active : true,
+            value: propertyFinded.initialValue 
         })
-        res.json(auction)
+        const actionSaved = await auction.save()
+        res.json(actionSaved)
 
     } catch(err) {
         res.status(500).json({error :err})
@@ -63,7 +69,7 @@ app.get('/:id', async(req,res) => {
     const {id} = req.params
     try {
         const auction = await Auction
-        .findByI(id)
+        .findById(id)
         .populate({
             path : 'bids',
             model : 'Bid',

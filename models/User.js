@@ -31,9 +31,9 @@ const UserSchema = new Schema ({
     auctions: [
         { type: Schema.Types.ObjectId, ref: "Auction" }
     ],
-    position: [
+    position: 
         { type: Schema.Types.ObjectId, ref: "Property" }
-    ],
+    ,
 }, {
     timestamps: true
 })

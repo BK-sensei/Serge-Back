@@ -35,8 +35,12 @@ app.get('/:id', async (req, res) => {
     try {
         const user = await User.findById(id)
         .populate({
-            path : 'user',
-            model : 'User'
+            path : 'properties',
+            model : 'Property'
+        })
+        .populate({
+            path : 'position',
+            model :'Property'
         })
         .exec()
 
@@ -85,12 +89,18 @@ app.put('/:id/:property',async(req,res)=>{
     const {id , property } = req.params
 
     try{
-        const stationCheck = await Property.findById(id)
+        const stationCheck = await Property.findById(property)
+        console.log("currentvalue", stationCheck)
         const price = stationCheck.currentValue
-     const userBuy =  await User.findOneAndUpdate(
+        console.log('price', price)
+        const userCheck = await User.findById(id)
+        const userCheckBalance = userCheck.balance - price
+        console.log('userCheckBalance',userCheckBalance)
+    
+        const userBuy =  await User.findOneAndUpdate(
             {_id : id},
             {$push: {properties : property}},
-            {$set : {balance : balance - price }},
+            {$set : {balance : 1000}},
             {new :true}
         ).exec()
     const stationSell = await Property.findOneAndUpdate(

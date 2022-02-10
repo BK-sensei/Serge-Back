@@ -14,11 +14,11 @@ const AuctionSchema = Schema({
     ],
     active : Boolean,
     startDate : Date,
-    endDate: Date
+    endDate: Date,
+    value : Number
 },{
     timestamps: true
 })
-
 
 const Auction = model('Auction', AuctionSchema)
 module.exports = Auction
