@@ -33,7 +33,8 @@ const UserSchema = new Schema ({
     ],
     position: [
         { type: Schema.Types.ObjectId, ref: "Property" }
-    ],
+    ]
+    ,
 }, {
     timestamps: true
 })

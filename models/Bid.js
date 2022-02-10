@@ -16,11 +16,16 @@ const BidSchema = Schema({
 BidSchema.post("save", async function(doc) {
     const id = doc._id
     const user = doc.user
+   const auction = await  model ("Auction").findOne({
+        _id: doc.auction
+    })
+    const auctionValue = auction.value 
     await model("Auction").updateOne(
       { _id: doc.auction },
-      { $push: { bids: id, user}}
+      { $push: { bids: id},
+         value : auctionValue + 100 }
     )
-  })
+})
   
 
 const Bid = model('Bid', BidSchema)

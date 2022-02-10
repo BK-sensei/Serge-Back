@@ -80,7 +80,6 @@ app.delete('/:id', async (req, res) => {
 
     try {
         await User.deleteOne({ _id: id })
-
         res.json({ sucess: 'User successfully deleted'})
     } catch (err) {
         console.log(err)
