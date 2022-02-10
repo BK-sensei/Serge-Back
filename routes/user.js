@@ -66,8 +66,6 @@ app.put('/:id', async (req, res) => {
             .populate('position')
             .exec()
 
-
-
     res.json(user)
     } catch (err) {
         console.log(err)
@@ -75,27 +73,6 @@ app.put('/:id', async (req, res) => {
     }
 })
 
-// Acheter une propriété
-app.post('/property', async (req, res) => {
-    const { property } = req.body 
-  
-    try {
-        await User.updateOne(
-            { _id: req.user._id },
-            { $push: {property: property} },
-        ).exec()
-
-        await Property.updateOne(
-            { _id: property._id },
-            { owner: req.user._id },
-        ).exec()
-  
-      res.json("succès de la vente")
-    } catch (err) {
-      console.log(err)
-      res.status(500).json({ error: err })
-    }
-})
 
 // Supprimer un joueur
 app.delete('/:id', async (req, res) => {
@@ -110,6 +87,7 @@ app.delete('/:id', async (req, res) => {
         res.status(500).json({ error : err })
     }
 })
+
 
 // Acheter une proprieté     
 app.put('/:id/buy/:property',async (req,res)=>{
