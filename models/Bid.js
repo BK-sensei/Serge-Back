@@ -25,7 +25,7 @@ BidSchema.post("save", async function(doc) {
       { $push: { bids: id},
          value : auctionValue + 100 }
     )
-  })
+})
   
 
 const Bid = model('Bid', BidSchema)
