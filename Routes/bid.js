@@ -3,7 +3,6 @@ const app = express()
 
 const moment = require ('moment')
 
-
 const Bid = require ('../models/Bid')
 const Auction = require ('../models/Auction')
 

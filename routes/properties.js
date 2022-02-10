@@ -6,7 +6,6 @@ const Property = require("../models/Property")
 // middlewares
 const { verifyOwner } = require("../middlewares/properties")
 
-
 // Récupérer toutes les propriétés
 app.get('/', async (req, res) => {
     const properties = await Property.find()
@@ -50,6 +49,7 @@ app.put('/:id',verifyOwner, async (req, res) => {
   
     res.json(property)
 })
+
 
 // Pour créer une amélioration ou créer la currentValue
 app.put('/:id/:upgrade', async (req, res) => {

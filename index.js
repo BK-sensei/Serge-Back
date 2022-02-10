@@ -13,6 +13,7 @@ console.log("origin",process.env.ALLOWED_DOMAIN);
 
 const passport = require("./config/passport")
 const session = require("express-session")
+
 const cors = require("cors")
 
 const { dbConnect } = require ('./config/db')
@@ -36,6 +37,7 @@ app.use(cors({
     origin: process.env.ALLOWED_DOMAIN,
     credentials: true
 }))
+
 
 app.use(session({
     secret: "secret",

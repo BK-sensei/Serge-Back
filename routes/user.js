@@ -38,10 +38,6 @@ app.get('/:id', async (req, res) => {
             path : 'properties',
             model : 'Property'
         })
-        .populate({
-            path : 'position',
-            model :'Property'
-        })
         .exec()
 
         res.json(user)
@@ -56,16 +52,48 @@ app.put('/:id', async (req, res) => {
     const { id } = req.params
 
     try {
-        const user = await User.findOneAndUpdate(
+        const updatedUser = await User.findOneAndUpdate(
             { _id: id },
             { ...req.body },
             { new: true }
         ).exec()
 
+        const user = await User.findById(updatedUser._id)
+            .populate({
+                path : 'properties',
+                model : 'Property'
+            })
+            .populate('position')
+            .exec()
+
+
+
     res.json(user)
     } catch (err) {
         console.log(err)
         res.status(500).json({ error : err })
+    }
+})
+
+// Acheter une propriété
+app.post('/property', async (req, res) => {
+    const { property } = req.body 
+  
+    try {
+        await User.updateOne(
+            { _id: req.user._id },
+            { $push: {property: property} },
+        ).exec()
+
+        await Property.updateOne(
+            { _id: property._id },
+            { owner: req.user._id },
+        ).exec()
+  
+      res.json("succès de la vente")
+    } catch (err) {
+      console.log(err)
+      res.status(500).json({ error: err })
     }
 })
 
@@ -75,7 +103,6 @@ app.delete('/:id', async (req, res) => {
 
     try {
         await User.deleteOne({ _id: id })
-
         res.json({ sucess: 'User successfully deleted'})
     } catch (err) {
         console.log(err)
@@ -83,31 +110,31 @@ app.delete('/:id', async (req, res) => {
     }
 })
 
-/// achat proprieté 
-
-app.put('/:id/:property',async(req,res)=>{
+// Acheter une proprieté     
+app.put('/:id/buy/:property',async (req,res)=>{
     const {id , property } = req.params
 
     try{
-        const stationCheck = await Property.findById(property)
-        console.log("currentvalue", stationCheck)
-        const price = stationCheck.currentValue
-        console.log('price', price)
-        const userCheck = await User.findById(id)
-        const userCheckBalance = userCheck.balance - price
-        console.log('userCheckBalance',userCheckBalance)
-    
-        const userBuy =  await User.findOneAndUpdate(
-            {_id : id},
-            {$push: {properties : property}},
-            {$set : {balance : 1000}},
-            {new :true}
+        const user = await User.findById(id)
+        const userBalance = await user.balance
+        const propertyId = await Property.findById(property)
+        const propertyValue = await propertyId.currentValue
+        const total = await userBalance - propertyValue
+    const userBuy =  await User.findOneAndUpdate(
+            { _id : id },
+            { 
+                $push: { properties : property }, 
+                set: { balance : total } 
+            },
+            { new: true }
         ).exec()
+        res.json(userBuy)
     const stationSell = await Property.findOneAndUpdate(
-        {_id : property},
-        {$set : {user : id}},
-        {new : true}
+        { _id : property },
+        { $set : { owner : id } },
+        { new : true }
     ).exec()
+    res.json(stationSell)
     }catch (err){
         console.log(err)
         res.status(500).json({error : err})
