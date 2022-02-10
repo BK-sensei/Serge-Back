@@ -79,25 +79,31 @@ app.delete('/:id', async (req, res) => {
     }
 })
 
-/// achat proprieté 
-
-app.put('/:id/:property',async(req,res)=>{
+// Acheter une proprieté     
+app.put('/:id/buy/:property',async (req,res)=>{
     const {id , property } = req.params
 
     try{
-        const stationCheck = await Property.findById(id)
-        const price = stationCheck.currentValue
-     const userBuy =  await User.findOneAndUpdate(
-            {_id : id},
-            {$push: {properties : property}},
-            {$set : {balance : balance - price }},
-            {new :true}
+        const user = await User.findById(id)
+        const userBalance = await user.balance
+        const propertyId = await Property.findById(property)
+        const propertyValue = await propertyId.currentValue
+        const total = await userBalance - propertyValue
+    const userBuy =  await User.findOneAndUpdate(
+            { _id : id },
+            { 
+                $push: { properties : property }, 
+                set: { balance : total } 
+            },
+            { new: true }
         ).exec()
+        res.json(userBuy)
     const stationSell = await Property.findOneAndUpdate(
-        {_id : property},
-        {$set : {user : id}},
-        {new : true}
+        { _id : property },
+        { $set : { owner : id } },
+        { new : true }
     ).exec()
+    res.json(stationSell)
     }catch (err){
         console.log(err)
         res.status(500).json({error : err})
