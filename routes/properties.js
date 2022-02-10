@@ -51,6 +51,7 @@ app.put('/:id',verifyOwner, async (req, res) => {
     res.json(property)
 })
 
+
 // Pour créer une amélioration ou créer la currentValue
 app.put('/:id/:upgrade', async (req, res) => {
     const { id, upgrade } = req.params

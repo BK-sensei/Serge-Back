@@ -50,6 +50,7 @@ app.get('/me', async (req, res) => {
           path : 'properties',
           model : 'Property'
       })
+      .populate('position')
       .exec()
 
       res.json(user)

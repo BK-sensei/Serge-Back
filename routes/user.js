@@ -52,16 +52,48 @@ app.put('/:id', async (req, res) => {
     const { id } = req.params
 
     try {
-        const user = await User.findOneAndUpdate(
+        const updatedUser = await User.findOneAndUpdate(
             { _id: id },
             { ...req.body },
             { new: true }
         ).exec()
 
+        const user = await User.findById(updatedUser._id)
+            .populate({
+                path : 'properties',
+                model : 'Property'
+            })
+            .populate('position')
+            .exec()
+
+
+
     res.json(user)
     } catch (err) {
         console.log(err)
         res.status(500).json({ error : err })
+    }
+})
+
+// Acheter une propriété
+app.post('/property', async (req, res) => {
+    const { property } = req.body 
+  
+    try {
+        await User.updateOne(
+            { _id: req.user._id },
+            { $push: {property: property} },
+        ).exec()
+
+        await Property.updateOne(
+            { _id: property._id },
+            { owner: req.user._id },
+        ).exec()
+  
+      res.json("succès de la vente")
+    } catch (err) {
+      console.log(err)
+      res.status(500).json({ error: err })
     }
 })
 
