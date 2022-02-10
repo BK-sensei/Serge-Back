@@ -6,7 +6,6 @@ const Property = require("../models/Property")
 // middlewares
 const { verifyOwner } = require("../middlewares/properties")
 
-
 // Récupérer toutes les propriétés
 app.get('/', async (req, res) => {
     const properties = await Property.find()

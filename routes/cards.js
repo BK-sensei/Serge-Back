@@ -3,7 +3,6 @@ const app = express()
 
 const Card = require("../models/Card")
 
-
 // Récupérer toutes les cartes chance
 app.get('/', async (req, res) => {
     const cards = await Card.find()

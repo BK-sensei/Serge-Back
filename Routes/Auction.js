@@ -34,7 +34,6 @@ app.post('/',async(req,res)=>{
 })
 
 /// Recupere toute les Auctons
-
 app.get('/',async(req,res)=>{
   try {  
     const auctions = await Auction
@@ -58,7 +57,6 @@ app.get('/',async(req,res)=>{
 })
 
 /// Récupère une auction grâce à son ID
-
 app.get('/:id', async(req,res) => {
     const {id} = req.params
     try {
@@ -83,7 +81,6 @@ app.get('/:id', async(req,res) => {
 
 
 //// Supprime une Auction ////
-
 app.delete('/', async(req,res)=>{
     const {id} = req.body
     try {
